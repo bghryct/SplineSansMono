@@ -68,13 +68,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- zerodot_part.
-	- uni2155.ss01
-	- .null
 	- two.ss12
-	- commaturnedabove
-	- IJ_acutecomb 
-	- And ij_acutecomb
+	- .null
+	- uni2155.ss01
+	- ij_acutecomb
+	- zerodot_part.
+	- commaturnedabove 
+	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -209,13 +209,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- zerodot_part.
-	- uni2155.ss01
-	- .null
 	- two.ss12
-	- commaturnedabove
-	- IJ_acutecomb 
-	- And ij_acutecomb
+	- .null
+	- uni2155.ss01
+	- ij_acutecomb
+	- zerodot_part.
+	- commaturnedabove 
+	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -264,15 +264,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 	* B (U+0042): B<<997.5,882.5>-<925.0,801.0>-<802.0,790.0>>/B<<802.0,790.0>-<965.0,773.0>-<1049.5,687.5>> = 11.064524992196239
-	* I (U+0049): B<<465.0,1148.0>-<487.0,1175.0>-<532.0,1182.0>>/L<<532.0,1182.0>--<135.0,1182.0>> = 8.84181456019167
-	* I (U+0049): B<<734.0,306.5>-<712.0,280.0>-<667.0,272.0>>/L<<667.0,272.0>--<1065.0,272.0>> = 10.08059798754231
+	* I (U+0049): B<<465.0,1151.0>-<487.0,1178.0>-<532.0,1185.0>>/L<<532.0,1185.0>--<135.0,1185.0>> = 8.84181456019167
+	* I (U+0049): B<<734.0,303.5>-<712.0,277.0>-<667.0,269.0>>/L<<667.0,269.0>--<1065.0,269.0>> = 10.08059798754231
 	* IJ (U+0132): B<<203.0,1138.0>-<225.0,1165.0>-<270.0,1172.0>>/L<<270.0,1172.0>--<25.0,1172.0>> = 8.84181456019167
 	* IJ (U+0132): B<<466.0,896.5>-<444.0,870.0>-<399.0,862.0>>/L<<399.0,862.0>--<635.0,862.0>> = 10.08059798754231
-	* Iacute (U+00CD): B<<465.0,1148.0>-<487.0,1175.0>-<532.0,1182.0>>/L<<532.0,1182.0>--<135.0,1182.0>> = 8.84181456019167
-	* Iacute (U+00CD): B<<734.0,306.5>-<712.0,280.0>-<667.0,272.0>>/L<<667.0,272.0>--<1065.0,272.0>> = 10.08059798754231
-	* Ibreve (U+012C): B<<465.0,1148.0>-<487.0,1175.0>-<532.0,1182.0>>/L<<532.0,1182.0>--<135.0,1182.0>> = 8.84181456019167
-	* Ibreve (U+012C): B<<734.0,306.5>-<712.0,280.0>-<667.0,272.0>>/L<<667.0,272.0>--<1065.0,272.0>> = 10.08059798754231
-	* Icircumflex (U+00CE): B<<465.0,1148.0>-<487.0,1175.0>-<532.0,1182.0>>/L<<532.0,1182.0>--<135.0,1182.0>> = 8.84181456019167 and 145 more.
+	* Iacute (U+00CD): B<<465.0,1151.0>-<487.0,1178.0>-<532.0,1185.0>>/L<<532.0,1185.0>--<135.0,1185.0>> = 8.84181456019167
+	* Iacute (U+00CD): B<<734.0,303.5>-<712.0,277.0>-<667.0,269.0>>/L<<667.0,269.0>--<1065.0,269.0>> = 10.08059798754231
+	* Ibreve (U+012C): B<<465.0,1151.0>-<487.0,1178.0>-<532.0,1185.0>>/L<<532.0,1185.0>--<135.0,1185.0>> = 8.84181456019167
+	* Ibreve (U+012C): B<<734.0,303.5>-<712.0,277.0>-<667.0,269.0>>/L<<667.0,269.0>--<1065.0,269.0>> = 10.08059798754231
+	* Icircumflex (U+00CE): B<<465.0,1151.0>-<487.0,1178.0>-<532.0,1185.0>>/L<<532.0,1185.0>--<135.0,1185.0>> = 8.84181456019167 and 147 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary><div>
@@ -357,13 +357,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- zerodot_part.
-	- uni2155.ss01
-	- .null
 	- two.ss12
-	- commaturnedabove
-	- IJ_acutecomb 
-	- And ij_acutecomb
+	- .null
+	- uni2155.ss01
+	- ij_acutecomb
+	- zerodot_part.
+	- commaturnedabove 
+	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -396,15 +396,15 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 	* B (U+0042): B<<993.5,878.0>-<923.0,793.0>-<808.0,778.0>>/B<<808.0,778.0>-<951.0,766.0>-<1042.0,683.5>> = 12.22820693800804
-	* I (U+0049): B<<478.5,1176.5>-<497.0,1201.0>-<534.0,1209.0>>/L<<534.0,1209.0>--<143.0,1209.0>> = 12.200468727380786
-	* I (U+0049): B<<720.5,277.5>-<702.0,253.0>-<665.0,245.0>>/L<<665.0,245.0>--<1057.0,245.0>> = 12.200468727380786
+	* I (U+0049): B<<478.5,1178.5>-<497.0,1203.0>-<534.0,1211.0>>/L<<534.0,1211.0>--<143.0,1211.0>> = 12.200468727380786
+	* I (U+0049): B<<720.5,275.5>-<702.0,251.0>-<665.0,243.0>>/L<<665.0,243.0>--<1057.0,243.0>> = 12.200468727380786
 	* IJ (U+0132): B<<221.5,1170.5>-<240.0,1195.0>-<277.0,1203.0>>/L<<277.0,1203.0>--<33.0,1203.0>> = 12.200468727380786
 	* IJ (U+0132): B<<459.5,837.0>-<441.0,812.0>-<404.0,805.0>>/L<<404.0,805.0>--<643.0,805.0>> = 10.713123022791033
-	* Iacute (U+00CD): B<<478.5,1176.5>-<497.0,1201.0>-<534.0,1209.0>>/L<<534.0,1209.0>--<143.0,1209.0>> = 12.200468727380786
-	* Iacute (U+00CD): B<<720.5,277.5>-<702.0,253.0>-<665.0,245.0>>/L<<665.0,245.0>--<1057.0,245.0>> = 12.200468727380786
-	* Ibreve (U+012C): B<<478.5,1176.5>-<497.0,1201.0>-<534.0,1209.0>>/L<<534.0,1209.0>--<143.0,1209.0>> = 12.200468727380786
-	* Ibreve (U+012C): B<<720.5,277.5>-<702.0,253.0>-<665.0,245.0>>/L<<665.0,245.0>--<1057.0,245.0>> = 12.200468727380786
-	* Icircumflex (U+00CE): B<<478.5,1176.5>-<497.0,1201.0>-<534.0,1209.0>>/L<<534.0,1209.0>--<143.0,1209.0>> = 12.200468727380786 and 161 more.
+	* Iacute (U+00CD): B<<478.5,1178.5>-<497.0,1203.0>-<534.0,1211.0>>/L<<534.0,1211.0>--<143.0,1211.0>> = 12.200468727380786
+	* Iacute (U+00CD): B<<720.5,275.5>-<702.0,251.0>-<665.0,243.0>>/L<<665.0,243.0>--<1057.0,243.0>> = 12.200468727380786
+	* Ibreve (U+012C): B<<478.5,1178.5>-<497.0,1203.0>-<534.0,1211.0>>/L<<534.0,1211.0>--<143.0,1211.0>> = 12.200468727380786
+	* Ibreve (U+012C): B<<720.5,275.5>-<702.0,251.0>-<665.0,243.0>>/L<<665.0,243.0>--<1057.0,243.0>> = 12.200468727380786
+	* Icircumflex (U+00CE): B<<478.5,1178.5>-<497.0,1203.0>-<534.0,1211.0>>/L<<534.0,1211.0>--<143.0,1211.0>> = 12.200468727380786 and 161 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary><div>
@@ -489,13 +489,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- zerodot_part.
-	- uni2155.ss01
-	- .null
 	- two.ss12
-	- commaturnedabove
-	- IJ_acutecomb 
-	- And ij_acutecomb
+	- .null
+	- uni2155.ss01
+	- ij_acutecomb
+	- zerodot_part.
+	- commaturnedabove 
+	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -614,13 +614,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- zerodot_part.
-	- uni2155.ss01
-	- .null
 	- two.ss12
-	- commaturnedabove
-	- IJ_acutecomb 
-	- And ij_acutecomb
+	- .null
+	- uni2155.ss01
+	- ij_acutecomb
+	- zerodot_part.
+	- commaturnedabove 
+	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
