@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.7
 
-<details><summary><b>[18] SplineSansMono-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+<details><summary><b>[17] SplineSansMono-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -35,11 +35,6 @@ Fontbakery version: 0.8.7
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
 * ⚠ **WARN** Font is monospaced but 7 glyphs (1.29%) have a different width. You should check the widths of: ['plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary><div>
-* [com.google.fonts/check/vendor_id](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id)
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary><div>
 * [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
 
@@ -73,13 +68,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- two.ss12
-	- ij_acutecomb
-	- commaturnedabove
-	- .null
 	- zerodot_part.
+	- uni2155.ss01
+	- .null
+	- two.ss12
+	- commaturnedabove
 	- IJ_acutecomb 
-	- And uni2155.ss01
+	- And ij_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -111,8 +106,6 @@ Use -F or --full-lists to disable shortening of long lists.
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* ampersand (U+0026): X=1175.0,Y=-1.0 (should be at baseline 0?)
-	* ampersand (U+0026): X=947.0,Y=-1.0 (should be at baseline 0?)
 	* U (U+0055): X=110.0,Y=1456.0 (should be at cap-height 1454?)
 	* U (U+0055): X=346.0,Y=1456.0 (should be at cap-height 1454?)
 	* f (U+0066): X=204.0,Y=1092.0 (should be at x-height 1091?)
@@ -120,7 +113,9 @@ Use -F or --full-lists to disable shortening of long lists.
 	* f (U+0066): X=670.0,Y=1092.0 (should be at x-height 1091?)
 	* f (U+0066): X=1009.0,Y=1092.0 (should be at x-height 1091?)
 	* g (U+0067): X=771.0,Y=1090.0 (should be at x-height 1091?)
-	* g (U+0067): X=343.5,Y=1.0 (should be at baseline 0?) and 58 more.
+	* g (U+0067): X=343.5,Y=1.0 (should be at baseline 0?)
+	* j (U+006A): X=525.0,Y=-460.0 (should be at descender -458?)
+	* j (U+006A): X=280.0,Y=1092.0 (should be at x-height 1091?) and 55 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary><div>
@@ -155,7 +150,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
  * Gdotaccent (U+0120): L<<1080.0,776.0>--<1078.0,158.0>> and 85 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] SplineSansMono-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+</div></details><br></div></details><details><summary><b>[16] SplineSansMono-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -188,11 +183,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
 * ⚠ **WARN** Font is monospaced but 7 glyphs (1.29%) have a different width. You should check the widths of: ['plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary><div>
-* [com.google.fonts/check/vendor_id](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id)
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description.</summary><div>
 * [com.google.fonts/check/stylisticset_description](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description)
 
@@ -219,13 +209,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- two.ss12
-	- ij_acutecomb
-	- commaturnedabove
-	- .null
 	- zerodot_part.
+	- uni2155.ss01
+	- .null
+	- two.ss12
+	- commaturnedabove
 	- IJ_acutecomb 
-	- And uni2155.ss01
+	- And ij_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -257,8 +247,6 @@ Use -F or --full-lists to disable shortening of long lists.
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* ampersand (U+0026): X=1192.0,Y=-1.0 (should be at baseline 0?)
-	* ampersand (U+0026): X=895.0,Y=-1.0 (should be at baseline 0?)
 	* at (U+0040): X=287.5,Y=-0.5 (should be at baseline 0?)
 	* U (U+0055): X=78.0,Y=1456.0 (should be at cap-height 1454?)
 	* U (U+0055): X=392.0,Y=1456.0 (should be at cap-height 1454?)
@@ -266,7 +254,9 @@ Use -F or --full-lists to disable shortening of long lists.
 	* f (U+0066): X=400.0,Y=1092.0 (should be at x-height 1091?)
 	* f (U+0066): X=709.0,Y=1092.0 (should be at x-height 1091?)
 	* f (U+0066): X=1024.0,Y=1092.0 (should be at x-height 1091?)
-	* g (U+0067): X=1083.0,Y=1090.0 (should be at x-height 1091?) and 64 more.
+	* g (U+0067): X=1083.0,Y=1090.0 (should be at x-height 1091?)
+	* j (U+006A): X=252.0,Y=1092.0 (should be at x-height 1091?)
+	* j (U+006A): X=906.0,Y=1092.0 (should be at x-height 1091?) and 62 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary><div>
@@ -274,15 +264,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 	* B (U+0042): B<<997.5,882.5>-<925.0,801.0>-<802.0,790.0>>/B<<802.0,790.0>-<965.0,773.0>-<1049.5,687.5>> = 11.064524992196239
-	* I (U+0049): B<<463.0,1148.0>-<485.0,1175.0>-<530.0,1182.0>>/L<<530.0,1182.0>--<135.0,1182.0>> = 8.84181456019167
-	* I (U+0049): B<<736.0,306.5>-<714.0,280.0>-<669.0,272.0>>/L<<669.0,272.0>--<1065.0,272.0>> = 10.08059798754231
+	* I (U+0049): B<<465.0,1148.0>-<487.0,1175.0>-<532.0,1182.0>>/L<<532.0,1182.0>--<135.0,1182.0>> = 8.84181456019167
+	* I (U+0049): B<<734.0,306.5>-<712.0,280.0>-<667.0,272.0>>/L<<667.0,272.0>--<1065.0,272.0>> = 10.08059798754231
 	* IJ (U+0132): B<<203.0,1138.0>-<225.0,1165.0>-<270.0,1172.0>>/L<<270.0,1172.0>--<25.0,1172.0>> = 8.84181456019167
 	* IJ (U+0132): B<<466.0,896.5>-<444.0,870.0>-<399.0,862.0>>/L<<399.0,862.0>--<635.0,862.0>> = 10.08059798754231
-	* Iacute (U+00CD): B<<463.0,1148.0>-<485.0,1175.0>-<530.0,1182.0>>/L<<530.0,1182.0>--<135.0,1182.0>> = 8.84181456019167
-	* Iacute (U+00CD): B<<736.0,306.5>-<714.0,280.0>-<669.0,272.0>>/L<<669.0,272.0>--<1065.0,272.0>> = 10.08059798754231
-	* Ibreve (U+012C): B<<463.0,1148.0>-<485.0,1175.0>-<530.0,1182.0>>/L<<530.0,1182.0>--<135.0,1182.0>> = 8.84181456019167
-	* Ibreve (U+012C): B<<736.0,306.5>-<714.0,280.0>-<669.0,272.0>>/L<<669.0,272.0>--<1065.0,272.0>> = 10.08059798754231
-	* Icircumflex (U+00CE): B<<463.0,1148.0>-<485.0,1175.0>-<530.0,1182.0>>/L<<530.0,1182.0>--<135.0,1182.0>> = 8.84181456019167 and 145 more.
+	* Iacute (U+00CD): B<<465.0,1148.0>-<487.0,1175.0>-<532.0,1182.0>>/L<<532.0,1182.0>--<135.0,1182.0>> = 8.84181456019167
+	* Iacute (U+00CD): B<<734.0,306.5>-<712.0,280.0>-<667.0,272.0>>/L<<667.0,272.0>--<1065.0,272.0>> = 10.08059798754231
+	* Ibreve (U+012C): B<<465.0,1148.0>-<487.0,1175.0>-<532.0,1182.0>>/L<<532.0,1182.0>--<135.0,1182.0>> = 8.84181456019167
+	* Ibreve (U+012C): B<<734.0,306.5>-<712.0,280.0>-<667.0,272.0>>/L<<667.0,272.0>--<1065.0,272.0>> = 10.08059798754231
+	* Icircumflex (U+00CE): B<<465.0,1148.0>-<487.0,1175.0>-<532.0,1182.0>>/L<<532.0,1182.0>--<135.0,1182.0>> = 8.84181456019167 and 145 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary><div>
@@ -301,7 +291,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
  * a (U+0061): L<<758.0,0.0>--<760.0,255.0>> and 99 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] SplineSansMono-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+</div></details><br></div></details><details><summary><b>[16] SplineSansMono-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -334,11 +324,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
 * ⚠ **WARN** Font is monospaced but 7 glyphs (1.29%) have a different width. You should check the widths of: ['plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary><div>
-* [com.google.fonts/check/vendor_id](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id)
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary><div>
 * [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
 
@@ -372,13 +357,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- two.ss12
-	- ij_acutecomb
-	- commaturnedabove
-	- .null
 	- zerodot_part.
+	- uni2155.ss01
+	- .null
+	- two.ss12
+	- commaturnedabove
 	- IJ_acutecomb 
-	- And uni2155.ss01
+	- And ij_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -411,15 +396,15 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 	* B (U+0042): B<<993.5,878.0>-<923.0,793.0>-<808.0,778.0>>/B<<808.0,778.0>-<951.0,766.0>-<1042.0,683.5>> = 12.22820693800804
-	* I (U+0049): B<<477.5,1176.5>-<496.0,1201.0>-<533.0,1209.0>>/L<<533.0,1209.0>--<143.0,1209.0>> = 12.200468727380786
-	* I (U+0049): B<<721.5,277.5>-<703.0,253.0>-<666.0,245.0>>/L<<666.0,245.0>--<1057.0,245.0>> = 12.200468727380786
+	* I (U+0049): B<<478.5,1176.5>-<497.0,1201.0>-<534.0,1209.0>>/L<<534.0,1209.0>--<143.0,1209.0>> = 12.200468727380786
+	* I (U+0049): B<<720.5,277.5>-<702.0,253.0>-<665.0,245.0>>/L<<665.0,245.0>--<1057.0,245.0>> = 12.200468727380786
 	* IJ (U+0132): B<<221.5,1170.5>-<240.0,1195.0>-<277.0,1203.0>>/L<<277.0,1203.0>--<33.0,1203.0>> = 12.200468727380786
 	* IJ (U+0132): B<<459.5,837.0>-<441.0,812.0>-<404.0,805.0>>/L<<404.0,805.0>--<643.0,805.0>> = 10.713123022791033
-	* Iacute (U+00CD): B<<477.5,1176.5>-<496.0,1201.0>-<533.0,1209.0>>/L<<533.0,1209.0>--<143.0,1209.0>> = 12.200468727380786
-	* Iacute (U+00CD): B<<721.5,277.5>-<703.0,253.0>-<666.0,245.0>>/L<<666.0,245.0>--<1057.0,245.0>> = 12.200468727380786
-	* Ibreve (U+012C): B<<477.5,1176.5>-<496.0,1201.0>-<533.0,1209.0>>/L<<533.0,1209.0>--<143.0,1209.0>> = 12.200468727380786
-	* Ibreve (U+012C): B<<721.5,277.5>-<703.0,253.0>-<666.0,245.0>>/L<<666.0,245.0>--<1057.0,245.0>> = 12.200468727380786
-	* Icircumflex (U+00CE): B<<477.5,1176.5>-<496.0,1201.0>-<533.0,1209.0>>/L<<533.0,1209.0>--<143.0,1209.0>> = 12.200468727380786 and 161 more.
+	* Iacute (U+00CD): B<<478.5,1176.5>-<497.0,1201.0>-<534.0,1209.0>>/L<<534.0,1209.0>--<143.0,1209.0>> = 12.200468727380786
+	* Iacute (U+00CD): B<<720.5,277.5>-<702.0,253.0>-<665.0,245.0>>/L<<665.0,245.0>--<1057.0,245.0>> = 12.200468727380786
+	* Ibreve (U+012C): B<<478.5,1176.5>-<497.0,1201.0>-<534.0,1209.0>>/L<<534.0,1209.0>--<143.0,1209.0>> = 12.200468727380786
+	* Ibreve (U+012C): B<<720.5,277.5>-<702.0,253.0>-<665.0,245.0>>/L<<665.0,245.0>--<1057.0,245.0>> = 12.200468727380786
+	* Icircumflex (U+00CE): B<<478.5,1176.5>-<497.0,1201.0>-<534.0,1209.0>>/L<<534.0,1209.0>--<143.0,1209.0>> = 12.200468727380786 and 161 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary><div>
@@ -438,7 +423,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
  * Racute (U+0154): L<<597.0,1231.0>--<429.0,1232.0>> and 88 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] SplineSansMono-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+</div></details><br></div></details><details><summary><b>[16] SplineSansMono-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -471,11 +456,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
 * ⚠ **WARN** Font is monospaced but 8 glyphs (1.48%) have a different width. You should check the widths of: ['uni2155', 'plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary><div>
-* [com.google.fonts/check/vendor_id](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id)
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary><div>
 * [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
 
@@ -509,13 +489,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- two.ss12
-	- ij_acutecomb
-	- commaturnedabove
-	- .null
 	- zerodot_part.
+	- uni2155.ss01
+	- .null
+	- two.ss12
+	- commaturnedabove
 	- IJ_acutecomb 
-	- And uni2155.ss01
+	- And ij_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -575,7 +555,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
  * Gcaron (U+01E6): L<<950.0,200.0>--<952.0,611.0>> and 72 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[16] SplineSansMono-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+</div></details><br></div></details><details><summary><b>[15] SplineSansMono-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -608,11 +588,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
 * ⚠ **WARN** Font is monospaced but 8 glyphs (1.48%) have a different width. You should check the widths of: ['uni2155', 'plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID.</summary><div>
-* [com.google.fonts/check/vendor_id](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id)
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description.</summary><div>
 * [com.google.fonts/check/stylisticset_description](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description)
 
@@ -639,13 +614,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- two.ss12
-	- ij_acutecomb
-	- commaturnedabove
-	- .null
 	- zerodot_part.
+	- uni2155.ss01
+	- .null
+	- two.ss12
+	- commaturnedabove
 	- IJ_acutecomb 
-	- And uni2155.ss01
+	- And ij_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -702,7 +677,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
  * Gcaron (U+01E6): L<<1077.0,757.0>--<1075.0,148.0>>
  * Gdotaccent (U+0120): L<<1077.0,757.0>--<1075.0,148.0>>
  * Lslash (U+0141): L<<24.0,606.0>--<23.0,796.0>>
- * OE (U+0152): L<<632.0,1271.0>--<633.0,1454.0>> and 91 more.
+ * OE (U+0152): L<<632.0,1271.0>--<633.0,1454.0>> and 90 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details>
@@ -710,7 +685,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 30 | 10 | 45 | 498 | 31 | 437 | 0 |
+| 30 | 10 | 40 | 498 | 31 | 442 | 0 |
 | 3% | 1% | 4% | 47% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
