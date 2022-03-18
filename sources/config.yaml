@@ -3,5 +3,6 @@ sources:
   # - SplineMonoItalic.glyphs
 axisOrder:
   - wght
+outputDir: "../fonts"
 familyName: Spline Sans Mono
 
