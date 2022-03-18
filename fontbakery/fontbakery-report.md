@@ -74,12 +74,12 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 	- two.ss12
-	- zerodot_part.
-	- uni2155.ss01
+	- ij_acutecomb
 	- commaturnedabove
-	- IJ_acutecomb
-	- ij_acutecomb 
-	- And .null
+	- .null
+	- zerodot_part.
+	- IJ_acutecomb 
+	- And uni2155.ss01
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -94,12 +94,12 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: onequarter	Contours detected: 2	Expected: 3 or 4
 	- Glyph name: onehalf	Contours detected: 2	Expected: 3
 	- Glyph name: threequarters	Contours detected: 2	Expected: 3 or 4
-	- Glyph name: eth	Contours detected: 3	Expected: 2
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 	- Glyph name: uni01F5	Contours detected: 4	Expected: 3
-	- Glyph name: uni2153	Contours detected: 2	Expected: 3 
-	- And 20 more.
+	- Glyph name: uni2153	Contours detected: 2	Expected: 3
+	- Glyph name: uni2154	Contours detected: 2	Expected: 1 or 3 
+	- And 18 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -220,12 +220,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 	- two.ss12
-	- zerodot_part.
-	- uni2155.ss01
+	- ij_acutecomb
 	- commaturnedabove
-	- IJ_acutecomb
-	- ij_acutecomb 
-	- And .null
+	- .null
+	- zerodot_part.
+	- IJ_acutecomb 
+	- And uni2155.ss01
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -240,12 +240,12 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: onequarter	Contours detected: 2	Expected: 3 or 4
 	- Glyph name: onehalf	Contours detected: 2	Expected: 3
 	- Glyph name: threequarters	Contours detected: 2	Expected: 3 or 4
-	- Glyph name: eth	Contours detected: 3	Expected: 2
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 	- Glyph name: uni01F5	Contours detected: 4	Expected: 3
-	- Glyph name: uni2153	Contours detected: 2	Expected: 3 
-	- And 20 more.
+	- Glyph name: uni2153	Contours detected: 2	Expected: 3
+	- Glyph name: uni2154	Contours detected: 2	Expected: 1 or 3 
+	- And 18 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -373,12 +373,12 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 	- two.ss12
-	- zerodot_part.
-	- uni2155.ss01
+	- ij_acutecomb
 	- commaturnedabove
-	- IJ_acutecomb
-	- ij_acutecomb 
-	- And .null
+	- .null
+	- zerodot_part.
+	- IJ_acutecomb 
+	- And uni2155.ss01
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -393,12 +393,12 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: onequarter	Contours detected: 2	Expected: 3 or 4
 	- Glyph name: onehalf	Contours detected: 2	Expected: 3
 	- Glyph name: threequarters	Contours detected: 2	Expected: 3 or 4
-	- Glyph name: eth	Contours detected: 3	Expected: 2
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 	- Glyph name: uni01F5	Contours detected: 4	Expected: 3
-	- Glyph name: uni2153	Contours detected: 2	Expected: 3 
-	- And 20 more.
+	- Glyph name: uni2153	Contours detected: 2	Expected: 3
+	- Glyph name: uni2154	Contours detected: 2	Expected: 1 or 3 
+	- And 18 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -510,12 +510,12 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 	- two.ss12
-	- zerodot_part.
-	- uni2155.ss01
+	- ij_acutecomb
 	- commaturnedabove
-	- IJ_acutecomb
-	- ij_acutecomb 
-	- And .null
+	- .null
+	- zerodot_part.
+	- IJ_acutecomb 
+	- And uni2155.ss01
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -530,12 +530,12 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: onequarter	Contours detected: 2	Expected: 3 or 4
 	- Glyph name: onehalf	Contours detected: 2	Expected: 3
 	- Glyph name: threequarters	Contours detected: 2	Expected: 3 or 4
-	- Glyph name: eth	Contours detected: 3	Expected: 2
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 	- Glyph name: uni01F5	Contours detected: 4	Expected: 3
-	- Glyph name: uni2153	Contours detected: 2	Expected: 3 
-	- And 20 more.
+	- Glyph name: uni2153	Contours detected: 2	Expected: 3
+	- Glyph name: uni2154	Contours detected: 2	Expected: 1 or 3 
+	- And 18 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -640,12 +640,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 	- two.ss12
-	- zerodot_part.
-	- uni2155.ss01
+	- ij_acutecomb
 	- commaturnedabove
-	- IJ_acutecomb
-	- ij_acutecomb 
-	- And .null
+	- .null
+	- zerodot_part.
+	- IJ_acutecomb 
+	- And uni2155.ss01
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -660,12 +660,12 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: onequarter	Contours detected: 2	Expected: 3 or 4
 	- Glyph name: onehalf	Contours detected: 2	Expected: 3
 	- Glyph name: threequarters	Contours detected: 2	Expected: 3 or 4
-	- Glyph name: eth	Contours detected: 3	Expected: 2
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 	- Glyph name: uni01F5	Contours detected: 4	Expected: 3
-	- Glyph name: uni2153	Contours detected: 2	Expected: 3 
-	- And 20 more.
+	- Glyph name: uni2153	Contours detected: 2	Expected: 3
+	- Glyph name: uni2154	Contours detected: 2	Expected: 1 or 3 
+	- And 18 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
