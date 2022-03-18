@@ -50,10 +50,6 @@ name = "Use Extension Kerning";
 value = 1;
 },
 {
-name = "Use Typo Metrics";
-value = 1;
-},
-{
 name = "Enforce Compatibility Check";
 value = 1;
 },
@@ -89,11 +85,34 @@ Name = Weight;
 Tag = wght;
 }
 );
+},
+{
+name = isFixedPitch;
+value = 1;
+},
+{
+name = panose;
+value = (
+2,
+6,
+6,
+4,
+6,
+2,
+2,
+4,
+4,
+4
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2021-11-22 17:22:33 +0000";
 designer = "Eben Sorkin, Mirko Velimirovic";
-familyName = SplineSansMono30;
+familyName = "Spline Sans Mono";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;\012\012languagesystem latn dflt;\012languagesystem latn AZE;\012languagesystem latn CRT;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn CAT;\012languagesystem latn NLD;\012";
@@ -266,7 +285,7 @@ capHeight = 1454;
 customParameters = (
 {
 name = winAscent;
-value = 2012;
+value = 2024;
 },
 {
 name = winDescent;
@@ -598,7 +617,7 @@ custom = Medium;
 customParameters = (
 {
 name = winAscent;
-value = 2012;
+value = 2024;
 },
 {
 name = winDescent;
@@ -880,7 +899,7 @@ capHeight = 1454;
 customParameters = (
 {
 name = winAscent;
-value = 2012;
+value = 2024;
 },
 {
 name = winDescent;
