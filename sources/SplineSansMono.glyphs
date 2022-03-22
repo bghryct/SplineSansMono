@@ -20,7 +20,7 @@ code = "zero one two three four five six seven eight nine";
 name = Numbers;
 }
 );
-copyright = "Copyright 2021 The Spline Sans Project Authors (https://github.com/SorkinType/SplineSans)";
+copyright = "Copyright 2022 The Spline Sans Project Authors (https://github.com/bghryct/SplineMono)";
 customParameters = (
 {
 name = fsType;
@@ -92,7 +92,7 @@ name = vendorID;
 value = STC;
 }
 );
-date = "2022-03-18 17:36:55 +0000";
+date = "2022-03-22 15:47:02 +0000";
 designer = "Eben Sorkin, Mirko Velimirovic";
 familyName = "Spline Sans Mono";
 featurePrefixes = (
@@ -60385,6 +60385,23 @@ R = math;
 );
 instances = (
 {
+customParameters = (
+{
+name = panose;
+value = (
+2,
+6,
+6,
+9,
+3,
+5,
+2,
+8,
+1,
+4
+);
+}
+);
 interpolationWeight = 120;
 instanceInterpolations = {
 "0D9D1AFE-BAFC-449A-A530-9FCA9CDF2E2E" = 1;
@@ -60393,6 +60410,23 @@ name = Light;
 weightClass = Light;
 },
 {
+customParameters = (
+{
+name = panose;
+value = (
+2,
+6,
+6,
+9,
+3,
+5,
+2,
+8,
+1,
+4
+);
+}
+);
 interpolationWeight = 185;
 instanceInterpolations = {
 "09AB1441-CF14-483D-884E-606841830E4D" = 0.625;
@@ -60401,6 +60435,23 @@ instanceInterpolations = {
 name = Regular;
 },
 {
+customParameters = (
+{
+name = panose;
+value = (
+2,
+6,
+6,
+9,
+3,
+5,
+2,
+8,
+1,
+4
+);
+}
+);
 interpolationWeight = 235;
 instanceInterpolations = {
 "09AB1441-CF14-483D-884E-606841830E4D" = 0.87209;
@@ -60410,6 +60461,23 @@ name = Medium;
 weightClass = Medium;
 },
 {
+customParameters = (
+{
+name = panose;
+value = (
+2,
+6,
+6,
+9,
+3,
+5,
+2,
+8,
+1,
+4
+);
+}
+);
 interpolationWeight = 275;
 instanceInterpolations = {
 "09AB1441-CF14-483D-884E-606841830E4D" = 0.40698;
@@ -60419,6 +60487,23 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
+customParameters = (
+{
+name = panose;
+value = (
+2,
+6,
+6,
+9,
+3,
+5,
+2,
+8,
+1,
+4
+);
+}
+);
 interpolationWeight = 310;
 instanceInterpolations = {
 "BF6BC6F6-4B2A-4E9B-9E28-8B62B2F12FD9" = 1;
