@@ -8,3 +8,9 @@
 #
 # Names should be added to this file as:
 # Name <email address>
+
+Eben Sorkin  <sorkineben@gmail.com>
+Mirko Velimirovic <bghryct@gmail.com>
+Faride Mereb <faride@spline.design>
+Gonçalo Teixeira <goncalo@spline.design>
+Alejandro Pérez León <alejandro@spline.design>
