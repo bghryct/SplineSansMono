@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.7
 
-<details><summary><b>[17] SplineSansMono-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+<details><summary><b>[18] SplineSansMono-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -26,6 +26,10 @@ Fontbakery version: 0.8.7
 * [com.google.fonts/check/cjk_vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary><div>
+* [com.google.fonts/check/usweightclass](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass)
+
+* 🔥 **FAIL** OS/2 usWeightClass is '478' when it should be '500'. [code: bad-value]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check license file has good copyright string.</summary><div>
 * [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
 
@@ -63,13 +67,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- commaturnedabove
-	- .null
-	- IJ_acutecomb
+	- ij_acutecomb
 	- two.ss12
 	- zerodot_part.
-	- ij_acutecomb 
-	- And uni2155.ss01
+	- .null
+	- IJ_acutecomb
+	- uni2155.ss01 
+	- And commaturnedabove
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -105,48 +109,48 @@ Use -F or --full-lists to disable shortening of long lists.
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* U (U+0055): X=110.0,Y=1456.0 (should be at cap-height 1454?)
-	* U (U+0055): X=346.0,Y=1456.0 (should be at cap-height 1454?)
-	* f (U+0066): X=204.0,Y=1092.0 (should be at x-height 1091?)
-	* f (U+0066): X=444.0,Y=1092.0 (should be at x-height 1091?)
-	* f (U+0066): X=892.0,Y=1455.0 (should be at cap-height 1454?)
-	* f (U+0066): X=670.0,Y=1092.0 (should be at x-height 1091?)
-	* f (U+0066): X=1009.0,Y=1092.0 (should be at x-height 1091?)
+	* dollar (U+0024): X=718.0,Y=1452.0 (should be at cap-height 1454?)
+	* U (U+0055): X=115.0,Y=1456.0 (should be at cap-height 1454?)
+	* U (U+0055): X=339.0,Y=1456.0 (should be at cap-height 1454?)
+	* f (U+0066): X=210.0,Y=1092.0 (should be at x-height 1091?)
+	* f (U+0066): X=451.0,Y=1092.0 (should be at x-height 1091?)
+	* f (U+0066): X=664.0,Y=1092.0 (should be at x-height 1091?)
+	* f (U+0066): X=1007.0,Y=1092.0 (should be at x-height 1091?)
 	* g (U+0067): X=771.0,Y=1090.0 (should be at x-height 1091?)
-	* g (U+0067): X=343.5,Y=1.0 (should be at baseline 0?)
-	* j (U+006A): X=525.0,Y=-460.0 (should be at descender -458?) and 56 more.
+	* g (U+0067): X=347.0,Y=1.5 (should be at baseline 0?)
+	* j (U+006A): X=284.0,Y=1092.0 (should be at x-height 1091?) and 63 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary><div>
 * [com.google.fonts/check/outline_jaggy_segments](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments)
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
-	* B (U+0042): B<<989.0,873.5>-<920.0,784.0>-<815.0,765.0>>/B<<815.0,765.0>-<895.0,761.0>-<967.5,724.0>> = 13.119225067808111
-	* Lslash (U+0141): L<<407.0,1454.0>--<407.0,909.0>>/B<<407.0,909.0>-<410.0,930.0>-<424.5,951.5>> = 8.13010235415596
-	* a (U+0061): L<<813.0,0.0>--<813.0,245.0>>/B<<813.0,245.0>-<786.0,132.0>-<691.5,60.0>> = 13.438188158350638
-	* aacute (U+00E1): L<<813.0,0.0>--<813.0,245.0>>/B<<813.0,245.0>-<786.0,132.0>-<691.5,60.0>> = 13.438188158350638
-	* abreve (U+0103): L<<813.0,0.0>--<813.0,245.0>>/B<<813.0,245.0>-<786.0,132.0>-<691.5,60.0>> = 13.438188158350638
-	* acircumflex (U+00E2): L<<813.0,0.0>--<813.0,245.0>>/B<<813.0,245.0>-<786.0,132.0>-<691.5,60.0>> = 13.438188158350638
-	* adieresis (U+00E4): L<<813.0,0.0>--<813.0,245.0>>/B<<813.0,245.0>-<786.0,132.0>-<691.5,60.0>> = 13.438188158350638
-	* ae (U+00E6): B<<721.5,833.0>-<686.0,752.0>-<683.0,598.0>>/B<<683.0,598.0>-<688.0,641.0>-<711.5,657.5>> = 5.516504223731211
-	* aeacute (U+01FD): B<<721.5,833.0>-<686.0,752.0>-<683.0,598.0>>/B<<683.0,598.0>-<688.0,641.0>-<711.5,657.5>> = 5.516504223731211
-	* agrave (U+00E0): L<<813.0,0.0>--<813.0,245.0>>/B<<813.0,245.0>-<786.0,132.0>-<691.5,60.0>> = 13.438188158350638 and 112 more.
+	* B (U+0042): B<<988.0,872.5>-<920.0,782.0>-<817.0,761.0>>/B<<817.0,761.0>-<893.0,758.0>-<965.0,722.0>> = 13.784223615038577
+	* Lslash (U+0141): L<<388.0,1454.0>--<388.0,907.0>>/B<<388.0,907.0>-<391.0,928.0>-<405.5,948.5>> = 8.13010235415596
+	* Thorn (U+00DE): B<<396.5,272.5>-<377.0,286.0>-<373.0,305.0>>/L<<373.0,305.0>--<373.0,0.0>> = 11.888658039627968
+	* ae (U+00E6): B<<721.0,839.0>-<684.0,758.0>-<680.0,604.0>>/B<<680.0,604.0>-<685.0,645.0>-<708.0,660.5>> = 5.465089939346022
+	* aeacute (U+01FD): B<<721.0,839.0>-<684.0,758.0>-<680.0,604.0>>/B<<680.0,604.0>-<685.0,645.0>-<708.0,660.5>> = 5.465089939346022
+	* b (U+0062): L<<393.0,1068.0>--<393.0,864.0>>/B<<393.0,864.0>-<404.0,931.0>-<449.5,987.5>> = 9.323591778137999
+	* braceleft (U+007B): B<<674.0,797.5>-<612.0,736.0>-<424.0,713.0>>/B<<424.0,713.0>-<616.0,690.0>-<674.5,631.5>> = 13.805935465347666
+	* braceright (U+007D): B<<525.5,631.5>-<584.0,690.0>-<776.0,713.0>>/B<<776.0,713.0>-<588.0,736.0>-<526.5,797.5>> = 13.805935465347666
+	* comma (U+002C): B<<604.5,-44.0>-<617.0,-15.0>-<678.0,0.0>>/L<<678.0,0.0>--<474.0,0.0>> = 13.81502534126161
+	* d (U+0064): L<<821.0,0.0>--<819.0,243.0>>/B<<819.0,243.0>-<810.0,175.0>-<766.5,117.0>> = 8.011004693585441 and 96 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary><div>
 * [com.google.fonts/check/outline_semi_vertical](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical)
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * Amacron (U+0100): L<<280.0,1815.0>--<922.0,1816.0>>
- * Amacron (U+0100): L<<919.0,1607.0>--<280.0,1606.0>>
- * Ccedilla (U+00C7): L<<472.0,-427.0>--<473.0,-260.0>>
- * Emacron (U+0112): L<<280.0,1815.0>--<922.0,1816.0>>
- * Emacron (U+0112): L<<919.0,1607.0>--<280.0,1606.0>>
- * F (U+0046): L<<1056.0,1454.0>--<1057.0,1252.0>>
- * G (U+0047): L<<1080.0,776.0>--<1078.0,158.0>>
- * Gbreve (U+011E): L<<1080.0,776.0>--<1078.0,158.0>>
- * Gcaron (U+01E6): L<<1080.0,776.0>--<1078.0,158.0>>
- * Gdotaccent (U+0120): L<<1080.0,776.0>--<1078.0,158.0>> and 81 more.
+ * Amacron (U+0100): L<<281.0,1811.0>--<921.0,1812.0>>
+ * Amacron (U+0100): L<<918.0,1608.0>--<281.0,1607.0>>
+ * Ccedilla (U+00C7): L<<480.0,-422.0>--<481.0,-260.0>>
+ * Emacron (U+0112): L<<278.0,1811.0>--<918.0,1812.0>>
+ * Emacron (U+0112): L<<915.0,1608.0>--<278.0,1607.0>>
+ * G (U+0047): L<<1077.0,770.0>--<1075.0,155.0>>
+ * Gbreve (U+011E): L<<1077.0,770.0>--<1075.0,155.0>>
+ * Gcaron (U+01E6): L<<1077.0,770.0>--<1075.0,155.0>>
+ * Gdotaccent (U+0120): L<<1077.0,770.0>--<1075.0,155.0>>
+ * Hbar (U+0126): L<<1219.0,1093.0>--<1218.0,897.0>> and 78 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[16] SplineSansMono-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
@@ -203,13 +207,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- commaturnedabove
-	- .null
-	- IJ_acutecomb
+	- ij_acutecomb
 	- two.ss12
 	- zerodot_part.
-	- ij_acutecomb 
-	- And uni2155.ss01
+	- .null
+	- IJ_acutecomb
+	- uni2155.ss01 
+	- And commaturnedabove
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -350,13 +354,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- commaturnedabove
-	- .null
-	- IJ_acutecomb
+	- ij_acutecomb
 	- two.ss12
 	- zerodot_part.
-	- ij_acutecomb 
-	- And uni2155.ss01
+	- .null
+	- IJ_acutecomb
+	- uni2155.ss01 
+	- And commaturnedabove
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -481,13 +485,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- commaturnedabove
-	- .null
-	- IJ_acutecomb
+	- ij_acutecomb
 	- two.ss12
 	- zerodot_part.
-	- ij_acutecomb 
-	- And uni2155.ss01
+	- .null
+	- IJ_acutecomb
+	- uni2155.ss01 
+	- And commaturnedabove
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -605,13 +609,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- commaturnedabove
-	- .null
-	- IJ_acutecomb
+	- ij_acutecomb
 	- two.ss12
 	- zerodot_part.
-	- ij_acutecomb 
-	- And uni2155.ss01
+	- .null
+	- IJ_acutecomb
+	- uni2155.ss01 
+	- And commaturnedabove
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -647,16 +651,16 @@ Use -F or --full-lists to disable shortening of long lists.
 * [com.google.fonts/check/outline_jaggy_segments](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments)
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
-	* B (U+0042): B<<991.5,874.5>-<922.0,787.0>-<814.0,766.0>>/B<<814.0,766.0>-<891.0,763.0>-<964.0,727.0>> = 13.23471545978075
-	* Lslash (U+0141): L<<354.0,1454.0>--<354.0,913.0>>/B<<354.0,913.0>-<357.0,932.0>-<370.5,951.5>> = 8.972626614896358
-	* P (U+0050): B<<367.0,543.5>-<347.0,560.0>-<345.0,588.0>>/L<<345.0,588.0>--<345.0,0.0>> = 4.085616779974798
+	* B (U+0042): B<<991.5,874.5>-<922.0,787.0>-<814.0,766.0>>/B<<814.0,766.0>-<891.0,764.0>-<964.0,727.5>> = 12.491408380577253
+	* Lslash (U+0141): L<<354.0,1454.0>--<354.0,917.0>>/B<<354.0,917.0>-<358.0,936.0>-<372.0,954.0>> = 11.888658039627968
+	* P (U+0050): B<<368.5,542.0>-<349.0,557.0>-<345.0,583.0>>/L<<345.0,583.0>--<345.0,0.0>> = 8.746162262555211
 	* Thorn (U+00DE): B<<368.0,282.5>-<348.0,296.0>-<344.0,314.0>>/L<<344.0,314.0>--<344.0,0.0>> = 12.528807709151492
-	* ae (U+00E6): B<<713.5,855.5>-<669.0,762.0>-<664.0,589.0>>/B<<664.0,589.0>-<670.0,626.0>-<690.0,641.5>> = 7.5555400016973575
-	* aeacute (U+01FD): B<<713.5,855.5>-<669.0,762.0>-<664.0,589.0>>/B<<664.0,589.0>-<670.0,626.0>-<690.0,641.5>> = 7.5555400016973575
-	* b (U+0062): L<<362.0,1068.0>--<362.0,858.0>>/B<<362.0,858.0>-<374.0,932.0>-<422.5,989.0>> = 9.211026540816649
+	* ae (U+00E6): B<<713.5,855.5>-<669.0,762.0>-<664.0,589.0>>/B<<664.0,589.0>-<669.0,627.0>-<689.5,642.0>> = 5.8403711006105095
+	* aeacute (U+01FD): B<<713.5,855.5>-<669.0,762.0>-<664.0,589.0>>/B<<664.0,589.0>-<669.0,627.0>-<689.5,642.0>> = 5.8403711006105095
+	* b (U+0062): L<<362.0,1556.0>--<362.0,859.0>>/B<<362.0,859.0>-<375.0,932.0>-<423.5,989.5>> = 10.09750438407527
 	* comma (U+002C): B<<603.5,-44.5>-<616.0,-13.0>-<675.0,0.0>>/L<<675.0,0.0>--<487.0,0.0>> = 12.425942865427485
-	* d (U+0064): L<<850.0,0.0>--<849.0,246.0>>/B<<849.0,246.0>-<837.0,171.0>-<792.5,113.0>> = 9.323185310742842
-	* dcaron (U+010F): L<<844.0,0.0>--<843.0,246.0>>/B<<843.0,246.0>-<831.0,171.0>-<786.5,113.0>> = 9.323185310742842 and 101 more.
+	* d (U+0064): L<<850.0,0.0>--<849.0,244.0>>/B<<849.0,244.0>-<836.0,170.0>-<791.5,112.0>> = 10.198621643700793
+	* dcaron (U+010F): L<<844.0,0.0>--<843.0,244.0>>/B<<843.0,244.0>-<830.0,170.0>-<785.5,112.0>> = 10.198621643700793 and 101 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary><div>
@@ -672,7 +676,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
  * Gcaron (U+01E6): L<<1077.0,757.0>--<1075.0,148.0>>
  * Gdotaccent (U+0120): L<<1077.0,757.0>--<1075.0,148.0>>
  * Lslash (U+0141): L<<24.0,606.0>--<23.0,796.0>>
- * OE (U+0152): L<<632.0,1271.0>--<633.0,1454.0>> and 90 more.
+ * OE (U+0152): L<<632.0,1272.0>--<633.0,1454.0>> and 92 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details>
@@ -680,8 +684,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 30 | 5 | 45 | 498 | 31 | 442 | 0 |
-| 3% | 0% | 4% | 47% | 3% | 42% | 0% |
+| 30 | 6 | 45 | 498 | 31 | 441 | 0 |
+| 3% | 1% | 4% | 47% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
