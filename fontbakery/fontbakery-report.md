@@ -63,10 +63,10 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- commaturnedabove
-	- uni2155.ss01
-	- zerodot_part.
 	- .null
+	- zerodot_part.
+	- uni2155.ss01
+	- commaturnedabove
 	- ij_acutecomb
 	- two.ss12 
 	- And IJ_acutecomb
@@ -203,10 +203,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- commaturnedabove
-	- uni2155.ss01
-	- zerodot_part.
 	- .null
+	- zerodot_part.
+	- uni2155.ss01
+	- commaturnedabove
 	- ij_acutecomb
 	- two.ss12 
 	- And IJ_acutecomb
@@ -350,10 +350,10 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- commaturnedabove
-	- uni2155.ss01
-	- zerodot_part.
 	- .null
+	- zerodot_part.
+	- uni2155.ss01
+	- commaturnedabove
 	- ij_acutecomb
 	- two.ss12 
 	- And IJ_acutecomb
@@ -481,10 +481,10 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- commaturnedabove
-	- uni2155.ss01
-	- zerodot_part.
 	- .null
+	- zerodot_part.
+	- uni2155.ss01
+	- commaturnedabove
 	- ij_acutecomb
 	- two.ss12 
 	- And IJ_acutecomb
@@ -605,10 +605,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- commaturnedabove
-	- uni2155.ss01
-	- zerodot_part.
 	- .null
+	- zerodot_part.
+	- uni2155.ss01
+	- commaturnedabove
 	- ij_acutecomb
 	- two.ss12 
 	- And IJ_acutecomb
