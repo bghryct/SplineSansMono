@@ -1,8 +1,5 @@
 {
 .appVersion = "1357";
-DisplayStrings = (
-n
-);
 classes = (
 {
 code = "space nbspace i l j t v y I T one seven period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered bullet asterisk numbersign slash backslash parenleft parenright braceleft braceright bracketleft bracketright hyphen softhyphen endash emdash underscore quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior ordfeminine ordmasculine ";
@@ -19,7 +16,7 @@ code = "zero one two three four five six seven eight nine";
 name = Numbers;
 }
 );
-copyright = "Copyright 2022 The Spline Sans Project Authors (https://github.com/bghryct/SplineMono)";
+copyright = "Copyright 2022 The Spline Sans Mono Project Authors (https://github.com/SorkinType/SplineSansMono)";
 customParameters = (
 {
 name = fsType;
