@@ -37,7 +37,7 @@ Contributions
 -------------
 
 
-To contribute ideas and feedback, see [https://github.com/SorkinType/SplineSans](https://github.com/SorkinType/SplineSans)
+To contribute ideas and feedback, see [https://github.com/SorkinType/SplineSansMono](https://github.com/SorkinType/SplineSansMono)
 
 
 Source Files - Glyphs app file
