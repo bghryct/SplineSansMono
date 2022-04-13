@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.7
 
-<details><summary><b>[17] SplineSansMono-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+<details><summary><b>[16] SplineSansMono-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -26,10 +26,6 @@ Fontbakery version: 0.8.7
 * [com.google.fonts/check/cjk_vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-</div></details><details><summary>🔥 <b>FAIL:</b> Check license file has good copyright string.</summary><div>
-* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
-
-* 🔥 **FAIL** First line in license file does not match expected format: "copyright 20** the my font project authors (https://github.com/googlefonts/my-font-repository)"
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary><div>
 * [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
 
@@ -63,13 +59,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- zerodot_part.
-	- uni2155.ss01
-	- .null
 	- IJ_acutecomb
+	- commaturnedabove
 	- two.ss12
-	- ij_acutecomb 
-	- And commaturnedabove
+	- ij_acutecomb
+	- zerodot_part.
+	- uni2155.ss01 
+	- And .null
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -149,7 +145,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
  * Racute (U+0154): L<<597.0,1231.0>--<429.0,1232.0>> and 88 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] SplineSansMono-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+</div></details><br></div></details><details><summary><b>[16] SplineSansMono-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -173,10 +169,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/cjk_vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-</div></details><details><summary>🔥 <b>FAIL:</b> Check license file has good copyright string.</summary><div>
-* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
-
-* 🔥 **FAIL** First line in license file does not match expected format: "copyright 20** the my font project authors (https://github.com/googlefonts/my-font-repository)"
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary><div>
 * [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
 
@@ -210,13 +202,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- zerodot_part.
-	- uni2155.ss01
-	- .null
 	- IJ_acutecomb
+	- commaturnedabove
 	- two.ss12
-	- ij_acutecomb 
-	- And commaturnedabove
+	- ij_acutecomb
+	- zerodot_part.
+	- uni2155.ss01 
+	- And .null
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -296,7 +288,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
  * Gcaron (U+01E6): L<<950.0,200.0>--<952.0,611.0>> and 72 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[16] SplineSansMono-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+</div></details><br></div></details><details><summary><b>[15] SplineSansMono-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -320,10 +312,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/cjk_vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-</div></details><details><summary>🔥 <b>FAIL:</b> Check license file has good copyright string.</summary><div>
-* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
-
-* 🔥 **FAIL** First line in license file does not match expected format: "copyright 20** the my font project authors (https://github.com/googlefonts/my-font-repository)"
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description.</summary><div>
 * [com.google.fonts/check/stylisticset_description](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description)
 
@@ -350,13 +338,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- zerodot_part.
-	- uni2155.ss01
-	- .null
 	- IJ_acutecomb
+	- commaturnedabove
 	- two.ss12
-	- ij_acutecomb 
-	- And commaturnedabove
+	- ij_acutecomb
+	- zerodot_part.
+	- uni2155.ss01 
+	- And .null
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -436,7 +424,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
  * OE (U+0152): L<<632.0,1272.0>--<633.0,1454.0>> and 92 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] SplineSansMono-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+</div></details><br></div></details><details><summary><b>[16] SplineSansMono-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -460,10 +448,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/cjk_vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-</div></details><details><summary>🔥 <b>FAIL:</b> Check license file has good copyright string.</summary><div>
-* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
-
-* 🔥 **FAIL** First line in license file does not match expected format: "copyright 20** the my font project authors (https://github.com/googlefonts/my-font-repository)"
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary><div>
 * [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
 
@@ -497,13 +481,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- zerodot_part.
-	- uni2155.ss01
-	- .null
 	- IJ_acutecomb
+	- commaturnedabove
 	- two.ss12
-	- ij_acutecomb 
-	- And commaturnedabove
+	- ij_acutecomb
+	- zerodot_part.
+	- uni2155.ss01 
+	- And .null
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -583,7 +567,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
  * Hbar (U+0126): L<<1219.0,1093.0>--<1218.0,897.0>> and 78 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[16] SplineSansMono-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+</div></details><br></div></details><details><summary><b>[15] SplineSansMono-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -607,10 +591,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/cjk_vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-</div></details><details><summary>🔥 <b>FAIL:</b> Check license file has good copyright string.</summary><div>
-* [com.google.fonts/check/license/OFL_copyright](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright)
-
-* 🔥 **FAIL** First line in license file does not match expected format: "copyright 20** the my font project authors (https://github.com/googlefonts/my-font-repository)"
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description.</summary><div>
 * [com.google.fonts/check/stylisticset_description](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description)
 
@@ -637,13 +617,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- zerodot_part.
-	- uni2155.ss01
-	- .null
 	- IJ_acutecomb
+	- commaturnedabove
 	- two.ss12
-	- ij_acutecomb 
-	- And commaturnedabove
+	- ij_acutecomb
+	- zerodot_part.
+	- uni2155.ss01 
+	- And .null
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -728,7 +708,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 30 | 5 | 48 | 498 | 31 | 439 | 0 |
+| 30 | 0 | 48 | 498 | 31 | 444 | 0 |
 | 3% | 0% | 5% | 47% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
