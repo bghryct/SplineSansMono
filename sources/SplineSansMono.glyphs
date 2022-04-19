@@ -1,5 +1,8 @@
 {
 .appVersion = "1357";
+DisplayStrings = (
+Thing_One
+);
 classes = (
 {
 code = "space nbspace i l j t v y I T one seven period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered bullet asterisk numbersign slash backslash parenleft parenright braceleft braceright bracketleft bracketright hyphen softhyphen endash emdash underscore quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior ordfeminine ordmasculine ";
@@ -58123,7 +58126,7 @@ R = dashes;
 },
 {
 glyphname = underscore;
-lastChange = "2022-03-28 13:59:51 +0000";
+lastChange = "2022-04-19 15:21:22 +0000";
 layers = (
 {
 layerId = "0D9D1AFE-BAFC-449A-A530-9FCA9CDF2E2E";
@@ -58131,10 +58134,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"1016 -137 LINE",
-"1016 -21 LINE",
-"185 -21 LINE",
-"185 -137 LINE"
+"1204 -137 LINE",
+"1204 -21 LINE",
+"-4 -21 LINE",
+"-4 -137 LINE"
 );
 }
 );
@@ -58146,10 +58149,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"986 -221 LINE",
-"986 -21 LINE",
-"215 -21 LINE",
-"215 -221 LINE"
+"1204 -221 LINE",
+"1204 -51 LINE",
+"-4 -51 LINE",
+"-4 -221 LINE"
 );
 }
 );
@@ -58161,10 +58164,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"993 -264 LINE",
-"993 -21 LINE",
-"207 -21 LINE",
-"207 -264 LINE"
+"1204 -279 LINE",
+"1204 -51 LINE",
+"-4 -51 LINE",
+"-4 -279 LINE"
 );
 }
 );
@@ -58176,10 +58179,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"997 -190 LINE",
-"997 -21 LINE",
-"204 -21 LINE",
-"204 -190 LINE"
+"1204 -199 LINE",
+"1204 -51 LINE",
+"-4 -51 LINE",
+"-4 -199 LINE"
 );
 }
 );
@@ -76084,5 +76087,5 @@ oV = "313";
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
