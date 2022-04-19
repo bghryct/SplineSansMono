@@ -103,7 +103,7 @@ name = vendorID;
 value = STC;
 }
 );
-date = "2022-03-24 16:05:02 +0000";
+date = "2022-04-19 15:57:58 +0000";
 designer = "Eben Sorkin, Mirko Velimirovic";
 familyName = "Spline Sans Mono";
 featurePrefixes = (
@@ -266,11 +266,9 @@ fontMaster = (
 {
 alignmentZones = (
 "{1912, 16}",
-"{1556, 50}",
 "{1454, 30}",
 "{1091, 22}",
 "{0, -31}",
-"{-512, -31}",
 "{-600, -31}"
 );
 ascender = 1912;
@@ -596,12 +594,10 @@ xHeight = 1091;
 {
 alignmentZones = (
 "{1912, 16}",
-"{1556, 50}",
-"{1455, 30}",
-"{1318, 27}",
-"{682, 3}",
-"{-192, -31}",
-"{-545, -31}"
+"{1454, 30}",
+"{1091, 23}",
+"{0, -31}",
+"{-600, -31}"
 );
 ascender = 1912;
 capHeight = 1454;
@@ -678,12 +674,9 @@ xHeight = 1091;
 {
 alignmentZones = (
 "{1912, 16}",
-"{1556, 50}",
-"{1456, 30}",
 "{1454, 30}",
 "{1091, 23}",
 "{0, -31}",
-"{-512, -31}",
 "{-600, -31}"
 );
 ascender = 1912;
@@ -962,11 +955,9 @@ xHeight = 1091;
 {
 alignmentZones = (
 "{1912, 16}",
-"{1561, 20}",
 "{1454, 30}",
 "{1091, 23}",
 "{0, -31}",
-"{-512, -31}",
 "{-600, -31}"
 );
 ascender = 1912;
@@ -58126,7 +58117,7 @@ R = dashes;
 },
 {
 glyphname = underscore;
-lastChange = "2022-04-19 15:21:22 +0000";
+lastChange = "2022-04-19 15:56:17 +0000";
 layers = (
 {
 layerId = "0D9D1AFE-BAFC-449A-A530-9FCA9CDF2E2E";
@@ -58134,10 +58125,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"1204 -137 LINE",
-"1204 -21 LINE",
-"-4 -21 LINE",
-"-4 -137 LINE"
+"1204 -167 LINE",
+"1204 -51 LINE",
+"-4 -51 LINE",
+"-4 -167 LINE"
 );
 }
 );
@@ -76087,5 +76078,5 @@ oV = "313";
 };
 };
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 2;
 }
