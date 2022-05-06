@@ -348,7 +348,7 @@ horizontalStems = (
 118
 );
 id = "0D9D1AFE-BAFC-449A-A530-9FCA9CDF2E2E";
-italicAngle = -4;
+italicAngle = 4;
 userData = {
 GSOffsetHorizontal = -20;
 GSOffsetKeepCompatible = 1;
@@ -699,7 +699,7 @@ horizontalStems = (
 176
 );
 id = "099DAB3F-15EF-4A0D-A0EC-988B8C582406";
-italicAngle = -4;
+italicAngle = 4;
 verticalStems = (
 186,
 189
@@ -800,7 +800,7 @@ horizontalStems = (
 200
 );
 id = "09AB1441-CF14-483D-884E-606841830E4D";
-italicAngle = -4;
+italicAngle = 4;
 userData = {
 GSOffsetHorizontal = 40;
 GSOffsetKeepCompatible = 1;
@@ -1100,7 +1100,7 @@ horizontalStems = (
 258
 );
 id = "BF6BC6F6-4B2A-4E9B-9E28-8B62B2F12FD9";
-italicAngle = -4;
+italicAngle = 4;
 userData = {
 GSOffsetHorizontal = 25;
 GSOffsetKeepCompatible = 1;
@@ -75368,7 +75368,6 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = Bold;
 name = "Bold Italic";
 weightClass = Bold;
 }
