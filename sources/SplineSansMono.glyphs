@@ -55954,9 +55954,8 @@ R = NoKerning;
 };
 },
 {
-export = 0;
 glyphname = zero_part.;
-lastChange = "2022-03-28 13:59:51 +0000";
+lastChange = "2022-05-06 14:07:03 +0000";
 layers = (
 {
 anchors = (
@@ -61302,7 +61301,7 @@ R = NoKerning;
 },
 {
 glyphname = zerowidthspace;
-lastChange = "2022-05-06 13:54:16 +0000";
+lastChange = "2022-05-06 14:05:43 +0000";
 layers = (
 {
 layerId = "0D9D1AFE-BAFC-449A-A530-9FCA9CDF2E2E";
@@ -74884,9 +74883,8 @@ R = math;
 };
 },
 {
-export = 0;
 glyphname = Qtail_part.;
-lastChange = "2022-05-06 13:52:20 +0000";
+lastChange = "2022-05-06 14:05:37 +0000";
 layers = (
 {
 anchors = (
@@ -74987,9 +74985,8 @@ width = 1200;
 );
 },
 {
-export = 0;
 glyphname = zerodot_part.;
-lastChange = "2022-05-06 13:52:20 +0000";
+lastChange = "2022-05-06 14:05:37 +0000";
 layers = (
 {
 anchors = (
@@ -75254,9 +75251,8 @@ source = zero;
 };
 },
 {
-export = 0;
 glyphname = commaturnedabove;
-lastChange = "2022-05-06 13:52:20 +0000";
+lastChange = "2022-05-06 14:05:37 +0000";
 layers = (
 {
 anchors = (
@@ -75391,9 +75387,8 @@ R = NoKerning;
 };
 },
 {
-export = 0;
 glyphname = ringcomba_part.;
-lastChange = "2022-05-06 13:52:20 +0000";
+lastChange = "2022-05-06 14:05:37 +0000";
 layers = (
 {
 anchors = (
@@ -75582,9 +75577,8 @@ width = 1200;
 );
 },
 {
-export = 0;
 glyphname = Bar_part.;
-lastChange = "2022-03-28 13:59:51 +0000";
+lastChange = "2022-05-06 14:05:37 +0000";
 layers = (
 {
 anchors = (
@@ -75899,9 +75893,8 @@ width = 1200;
 );
 },
 {
-export = 0;
 glyphname = Barmid_part.;
-lastChange = "2022-03-28 13:59:51 +0000";
+lastChange = "2022-05-06 14:05:37 +0000";
 layers = (
 {
 anchors = (
@@ -75990,9 +75983,8 @@ width = 1200;
 );
 },
 {
-export = 0;
 glyphname = slashl_part.;
-lastChange = "2022-03-28 13:59:51 +0000";
+lastChange = "2022-05-06 14:05:37 +0000";
 layers = (
 {
 anchors = (
@@ -76081,9 +76073,8 @@ width = 1200;
 );
 },
 {
-export = 0;
 glyphname = oSlash_part.;
-lastChange = "2022-03-28 13:59:51 +0000";
+lastChange = "2022-05-06 14:05:37 +0000";
 layers = (
 {
 anchors = (
@@ -76225,9 +76216,8 @@ width = 1200;
 );
 },
 {
-export = 0;
 glyphname = OSlash_part.;
-lastChange = "2022-03-28 13:59:51 +0000";
+lastChange = "2022-05-06 14:05:37 +0000";
 layers = (
 {
 anchors = (
@@ -76348,9 +76338,8 @@ width = 1200;
 );
 },
 {
-export = 0;
 glyphname = slashL_part.;
-lastChange = "2022-03-28 13:59:51 +0000";
+lastChange = "2022-05-06 14:05:37 +0000";
 layers = (
 {
 anchors = (
@@ -76524,9 +76513,8 @@ width = 1200;
 );
 },
 {
-export = 0;
 glyphname = zeroSlash_part.;
-lastChange = "2022-03-28 13:59:51 +0000";
+lastChange = "2022-05-06 14:05:37 +0000";
 layers = (
 {
 anchors = (
@@ -76615,9 +76603,8 @@ width = 1200;
 );
 },
 {
-export = 0;
 glyphname = ringacutecomb.case;
-lastChange = "2022-05-06 13:52:35 +0000";
+lastChange = "2022-05-06 14:05:37 +0000";
 layers = (
 {
 anchors = (
