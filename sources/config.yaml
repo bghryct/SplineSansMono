@@ -1,8 +1,9 @@
 sources:
   - SplineSansMono.glyphs
-  # - SplineMonoItalic.glyphs
+  - SplineSansMono-Italic.glyphs
 axisOrder:
   - wght
+  - ital
 outputDir: "../fonts"
 familyName: Spline Sans Mono
 

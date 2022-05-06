@@ -2,7 +2,8 @@
 .appVersion = "1357";
 DisplayStrings = (
 "\0121/onehalf.ss19/space 1/twothirds.ss19/space 1/onethird.ss19/space 1/onequarter.ss19/space 1/threequarters.ss19/space 1/onefifth.ss19/space 1/onesixth.ss19/space/oneeighth.ss19/threeeighths.ss19/fiveeighths.ss19/seveneighths.ss19 \012\0121//2/space 2//3/space 1//3/space 1//4/space 1//5/space 1//6/space 1//8/space 3//8/space 5//8/space 7//8",
-"/onehalf.ss19/onethird.ss19/twothirds.ss19/onequarter.ss19/threequarters.ss19/onefifth.ss19/onesixth.ss19/oneeighth.ss19/threeeighths.ss19/fiveeighths.ss19/seveneighths.ss19"
+"/onehalf.ss19/onethird.ss19/twothirds.ss19/onequarter.ss19/threequarters.ss19/onefifth.ss19/onesixth.ss19/oneeighth.ss19/threeeighths.ss19/fiveeighths.ss19/seveneighths.ss19",
+"/zerowidthspace"
 );
 classes = (
 {
@@ -61301,23 +61302,23 @@ R = NoKerning;
 },
 {
 glyphname = zerowidthspace;
-lastChange = "2022-03-28 13:59:51 +0000";
+lastChange = "2022-05-06 13:54:16 +0000";
 layers = (
 {
 layerId = "0D9D1AFE-BAFC-449A-A530-9FCA9CDF2E2E";
-width = 1200;
+width = 0;
 },
 {
 layerId = "09AB1441-CF14-483D-884E-606841830E4D";
-width = 1200;
+width = 0;
 },
 {
 layerId = "BF6BC6F6-4B2A-4E9B-9E28-8B62B2F12FD9";
-width = 1200;
+width = 0;
 },
 {
 layerId = "141C475D-80AD-44C2-8A5C-00B4E0A743FB";
-width = 1200;
+width = 0;
 }
 );
 unicode = 200B;
@@ -74883,8 +74884,9 @@ R = math;
 };
 },
 {
+export = 0;
 glyphname = Qtail_part.;
-lastChange = "2022-03-28 13:59:51 +0000";
+lastChange = "2022-05-06 13:52:20 +0000";
 layers = (
 {
 anchors = (
@@ -74985,8 +74987,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = zerodot_part.;
-lastChange = "2022-03-28 13:59:51 +0000";
+lastChange = "2022-05-06 13:52:20 +0000";
 layers = (
 {
 anchors = (
@@ -75251,8 +75254,9 @@ source = zero;
 };
 },
 {
+export = 0;
 glyphname = commaturnedabove;
-lastChange = "2022-03-28 13:59:51 +0000";
+lastChange = "2022-05-06 13:52:20 +0000";
 layers = (
 {
 anchors = (
@@ -75387,8 +75391,9 @@ R = NoKerning;
 };
 },
 {
+export = 0;
 glyphname = ringcomba_part.;
-lastChange = "2022-03-28 13:59:51 +0000";
+lastChange = "2022-05-06 13:52:20 +0000";
 layers = (
 {
 anchors = (
@@ -76610,8 +76615,9 @@ width = 1200;
 );
 },
 {
+export = 0;
 glyphname = ringacutecomb.case;
-lastChange = "2022-03-28 13:59:51 +0000";
+lastChange = "2022-05-06 13:52:35 +0000";
 layers = (
 {
 anchors = (
