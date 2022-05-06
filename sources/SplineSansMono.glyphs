@@ -1,12 +1,5 @@
 {
 .appVersion = "1357";
-DisplayStrings = (
-"\0121/onehalf.ss19/space 1/twothirds.ss19/space 1/onethird.ss19/space 1/onequarter.ss19/space 1/threequarters.ss19/space 1/onefifth.ss19/space 1/onesixth.ss19/space/oneeighth.ss19/threeeighths.ss19/fiveeighths.ss19/seveneighths.ss19 \012\0121//2/space 2//3/space 1//3/space 1//4/space 1//5/space 1//6/space 1//8/space 3//8/space 5//8/space 7//8",
-"/onehalf.ss19/onethird.ss19/twothirds.ss19/onequarter.ss19/threequarters.ss19/onefifth.ss19/onesixth.ss19/oneeighth.ss19/threeeighths.ss19/fiveeighths.ss19/seveneighths.ss19",
-"/zerowidthspace",
-"æ",
-"/aeacute"
-);
 classes = (
 {
 code = "space nbspace i l j t v y I T one seven period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered bullet asterisk numbersign slash backslash parenleft parenright braceleft braceright bracketleft bracketright hyphen softhyphen endash emdash underscore quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior ordfeminine ordmasculine ";
