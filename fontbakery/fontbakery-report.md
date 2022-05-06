@@ -55,9 +55,9 @@ Fontbakery version: 0.8.7
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- .null
 	- commaturnedabove
-	- ij_acutecomb 
+	- ij_acutecomb
+	- .null 
 	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
@@ -197,13 +197,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- uni2153.ss19
+	- uni2159.ss19
 	- commaturnedabove
 	- ij_acutecomb
-	- IJ_acutecomb
-	- uni2154.ss19
-	- uni2153.ss19
-	- .null 
-	- And uni2159.ss19
+	- .null
+	- uni2154.ss19 
+	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -342,13 +342,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- uni2153.ss19
+	- uni2159.ss19
 	- commaturnedabove
 	- ij_acutecomb
-	- IJ_acutecomb
-	- uni2154.ss19
-	- uni2153.ss19
-	- .null 
-	- And uni2159.ss19
+	- .null
+	- uni2154.ss19 
+	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -464,13 +464,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- uni2153.ss19
+	- uni2159.ss19
 	- commaturnedabove
 	- ij_acutecomb
-	- IJ_acutecomb
-	- uni2154.ss19
-	- uni2153.ss19
-	- .null 
-	- And uni2159.ss19
+	- .null
+	- uni2154.ss19 
+	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -603,9 +603,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- .null
 	- commaturnedabove
-	- ij_acutecomb 
+	- ij_acutecomb
+	- .null 
 	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
@@ -762,9 +762,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- .null
 	- commaturnedabove
-	- ij_acutecomb 
+	- ij_acutecomb
+	- .null 
 	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
@@ -904,13 +904,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- uni2153.ss19
+	- uni2159.ss19
 	- commaturnedabove
 	- ij_acutecomb
-	- IJ_acutecomb
-	- uni2154.ss19
-	- uni2153.ss19
-	- .null 
-	- And uni2159.ss19
+	- .null
+	- uni2154.ss19 
+	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -1034,9 +1034,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- .null
 	- commaturnedabove
-	- ij_acutecomb 
+	- ij_acutecomb
+	- .null 
 	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
@@ -1185,13 +1185,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- uni2153.ss19
+	- uni2159.ss19
 	- commaturnedabove
 	- ij_acutecomb
-	- IJ_acutecomb
-	- uni2154.ss19
-	- uni2153.ss19
-	- .null 
-	- And uni2159.ss19
+	- .null
+	- uni2154.ss19 
+	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -1315,9 +1315,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- .null
 	- commaturnedabove
-	- ij_acutecomb 
+	- ij_acutecomb
+	- .null 
 	- And IJ_acutecomb
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
