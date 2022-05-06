@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.7
 
-<details><summary><b>[17] SplineSansMono-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+<details><summary><b>[15] SplineSansMono-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -26,22 +26,6 @@ Fontbakery version: 0.8.7
 * [com.google.fonts/check/cjk_vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-</div></details><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary><div>
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00BC (VULGAR FRACTION ONE QUARTER)
-
-	- 0x00BD (VULGAR FRACTION ONE HALF)
- 
-	- And 0x00BE (VULGAR FRACTION THREE QUARTERS)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary><div>
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2160, but got 2024 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 622, but got 605 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description.</summary><div>
 * [com.google.fonts/check/stylisticset_description](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description)
 
@@ -71,9 +55,9 @@ Fontbakery version: 0.8.7
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- ij_acutecomb
 	- IJ_acutecomb
-	- .null 
+	- .null
+	- ij_acutecomb 
 	- And commaturnedabove
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
@@ -86,15 +70,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Q	Contours detected: 3	Expected: 2
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+	- Glyph name: onequarter	Contours detected: 2	Expected: 3 or 4
+	- Glyph name: onehalf	Contours detected: 2	Expected: 3
+	- Glyph name: threequarters	Contours detected: 2	Expected: 3 or 4
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: uni01F5	Contours detected: 4	Expected: 3 
-	- And 10 more.
+	- Glyph name: lslash	Contours detected: 2	Expected: 1 
+	- And 16 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -105,7 +89,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Checking correctness of monospaced metadata.</summary><div>
 * [com.google.fonts/check/monospace](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace)
 
-* ⚠ **WARN** Font is monospaced but 7 glyphs (1.27%) have a different width. You should check the widths of: ['plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 7 glyphs (1.26%) have a different width. You should check the widths of: ['plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary><div>
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
 
@@ -119,7 +103,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* f (U+0066): X=1024.0,Y=1092.0 (should be at x-height 1091?)
 	* g (U+0067): X=1083.0,Y=1090.0 (should be at x-height 1091?)
 	* j (U+006A): X=597.0,Y=-2.0 (should be at baseline 0?)
-	* j (U+006A): X=252.0,Y=1092.0 (should be at x-height 1091?) and 50 more.
+	* j (U+006A): X=252.0,Y=1092.0 (should be at x-height 1091?) and 52 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary><div>
@@ -135,7 +119,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* Iacute (U+00CD): B<<734.0,303.5>-<712.0,277.0>-<667.0,269.0>>/L<<667.0,269.0>--<1065.0,269.0>> = 10.08059798754231
 	* Ibreve (U+012C): B<<465.0,1151.0>-<487.0,1178.0>-<532.0,1185.0>>/L<<532.0,1185.0>--<135.0,1185.0>> = 8.84181456019167
 	* Ibreve (U+012C): B<<734.0,303.5>-<712.0,277.0>-<667.0,269.0>>/L<<667.0,269.0>--<1065.0,269.0>> = 10.08059798754231
-	* Icircumflex (U+00CE): B<<465.0,1151.0>-<487.0,1178.0>-<532.0,1185.0>>/L<<532.0,1185.0>--<135.0,1185.0>> = 8.84181456019167 and 134 more.
+	* Icircumflex (U+00CE): B<<465.0,1151.0>-<487.0,1178.0>-<532.0,1185.0>>/L<<532.0,1185.0>--<135.0,1185.0>> = 8.84181456019167 and 138 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary><div>
@@ -151,10 +135,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
  * Rcaron (U+0158): L<<619.0,1210.0>--<467.0,1211.0>>
  * Scedilla (U+015E): L<<458.0,-461.0>--<459.0,-262.0>>
  * Uogonek (U+0172): L<<880.0,-210.0>--<881.0,-385.0>>
- * a (U+0061): L<<758.0,0.0>--<760.0,255.0>> and 86 more.
+ * a (U+0061): L<<758.0,0.0>--<760.0,255.0>> and 91 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[19] SplineSansMono-SemiBoldItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+</div></details><br></div></details><details><summary><b>[17] SplineSansMono-SemiBoldItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -178,26 +162,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/cjk_vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-</div></details><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary><div>
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00BC (VULGAR FRACTION ONE QUARTER)
-
-	- 0x00BD (VULGAR FRACTION ONE HALF)
- 
-	- And 0x00BE (VULGAR FRACTION THREE QUARTERS)
- [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value.</summary><div>
 * [com.google.fonts/check/italic_angle](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle)
 
-* 🔥 **FAIL** Font is italic, so post.italicAngle should be non-zero. [code: zero-italic]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary><div>
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2160, but got 2024 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 622, but got 605 instead. [code: descent]
+* 🔥 **FAIL** The value of post.italicAngle is positive, which is likely a mistake and should become negative, from 4.0 to -4.0. [code: positive]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary><div>
 * [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
 
@@ -234,13 +202,12 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 	- uni2154.ss19
-	- IJ_acutecomb
-	- .null
-	- uni2159.ss19
 	- ij_acutecomb
-	- ringacutecomb
-	- uni2153.ss19 
-	- And commaturnedabove
+	- commaturnedabove
+	- uni2153.ss19
+	- IJ_acutecomb
+	- .null 
+	- And uni2159.ss19
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -252,15 +219,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Q	Contours detected: 3	Expected: 2
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+	- Glyph name: onequarter	Contours detected: 2	Expected: 3 or 4
+	- Glyph name: onehalf	Contours detected: 2	Expected: 3
+	- Glyph name: threequarters	Contours detected: 2	Expected: 3 or 4
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-	- Glyph name: lslash	Contours detected: 2	Expected: 1 
-	- And 17 more.
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2 
+	- And 23 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -317,10 +284,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	* Iacute (U+00CD): B<<743.0,349.0>-<732.0,259.0>-<655.0,243.0>>/L<<655.0,243.0>--<1048.0,243.0>> = 11.73857120672233
 	* Ibreve (U+012C): B<<584.5,1178.0>-<606.0,1203.0>-<644.0,1211.0>>/L<<644.0,1211.0>--<253.0,1211.0>> = 11.888658039627968
 	* Ibreve (U+012C): B<<743.0,349.0>-<732.0,259.0>-<655.0,243.0>>/L<<655.0,243.0>--<1048.0,243.0>> = 11.73857120672233
-	* Icircumflex (U+00CE): B<<584.5,1178.0>-<606.0,1203.0>-<644.0,1211.0>>/L<<644.0,1211.0>--<253.0,1211.0>> = 11.888658039627968 and 153 more.
+	* Icircumflex (U+00CE): B<<584.5,1178.0>-<606.0,1203.0>-<644.0,1211.0>>/L<<644.0,1211.0>--<253.0,1211.0>> = 11.888658039627968 and 157 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[18] SplineSansMono-MediumItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+</div></details><br></div></details><details><summary><b>[16] SplineSansMono-MediumItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -344,26 +311,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * [com.google.fonts/check/cjk_vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-</div></details><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary><div>
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00BC (VULGAR FRACTION ONE QUARTER)
-
-	- 0x00BD (VULGAR FRACTION ONE HALF)
- 
-	- And 0x00BE (VULGAR FRACTION THREE QUARTERS)
- [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value.</summary><div>
 * [com.google.fonts/check/italic_angle](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle)
 
-* 🔥 **FAIL** Font is italic, so post.italicAngle should be non-zero. [code: zero-italic]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary><div>
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2160, but got 2024 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 622, but got 605 instead. [code: descent]
+* 🔥 **FAIL** The value of post.italicAngle is positive, which is likely a mistake and should become negative, from 4.0 to -4.0. [code: positive]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary><div>
 * [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
 
@@ -400,13 +351,12 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 	- uni2154.ss19
-	- IJ_acutecomb
-	- .null
-	- uni2159.ss19
 	- ij_acutecomb
-	- ringacutecomb
-	- uni2153.ss19 
-	- And commaturnedabove
+	- commaturnedabove
+	- uni2153.ss19
+	- IJ_acutecomb
+	- .null 
+	- And uni2159.ss19
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -418,15 +368,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Q	Contours detected: 3	Expected: 2
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+	- Glyph name: onequarter	Contours detected: 2	Expected: 3 or 4
+	- Glyph name: onehalf	Contours detected: 2	Expected: 3
+	- Glyph name: threequarters	Contours detected: 2	Expected: 3 or 4
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-	- Glyph name: lslash	Contours detected: 2	Expected: 1 
-	- And 18 more.
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2 
+	- And 24 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -467,10 +417,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* adieresis (U+00E4): L<<722.0,0.0>--<769.0,420.0>>/B<<769.0,420.0>-<713.0,210.0>-<608.5,99.0>> = 8.546311059786886
 	* ae (U+00E6): B<<772.0,839.0>-<720.0,753.0>-<689.0,604.0>>/B<<689.0,604.0>-<703.0,645.0>-<729.0,660.5>> = 7.100226513754948
 	* ae (U+00E6): L<<432.0,0.0>--<485.0,354.0>>/B<<485.0,354.0>-<425.0,184.0>-<339.5,86.0>> = 10.925098967656218
-	* aeacute (U+01FD): B<<772.0,839.0>-<720.0,753.0>-<689.0,604.0>>/B<<689.0,604.0>-<703.0,645.0>-<729.0,660.5>> = 7.100226513754948 and 116 more.
+	* aeacute (U+01FD): B<<772.0,839.0>-<720.0,753.0>-<689.0,604.0>>/B<<689.0,604.0>-<703.0,645.0>-<729.0,660.5>> = 7.100226513754948 and 120 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[21] SplineSansMono-BoldItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+</div></details><br></div></details><details><summary><b>[19] SplineSansMono-BoldItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -494,21 +444,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * [com.google.fonts/check/cjk_vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-</div></details><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary><div>
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00BC (VULGAR FRACTION ONE QUARTER)
-
-	- 0x00BD (VULGAR FRACTION ONE HALF)
- 
-	- And 0x00BE (VULGAR FRACTION THREE QUARTERS)
- [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value.</summary><div>
 * [com.google.fonts/check/italic_angle](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle)
 
-* 🔥 **FAIL** Font is italic, so post.italicAngle should be non-zero. [code: zero-italic]
+* 🔥 **FAIL** The value of post.italicAngle is positive, which is likely a mistake and should become negative, from 4.0 to -4.0. [code: positive]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries.</summary><div>
 * [com.google.fonts/check/name/familyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname)
 
@@ -517,11 +456,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * [com.google.fonts/check/name/typographicfamilyname](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname)
 
 * 🔥 **FAIL** Font style is "BoldItalic" and, for that reason, it is not expected to have a [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] entry! [code: ribbi]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary><div>
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2160, but got 2024 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 622, but got 605 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary><div>
 * [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
 
@@ -558,13 +492,12 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 	- uni2154.ss19
-	- IJ_acutecomb
-	- .null
-	- uni2159.ss19
 	- ij_acutecomb
-	- ringacutecomb
-	- uni2153.ss19 
-	- And commaturnedabove
+	- commaturnedabove
+	- uni2153.ss19
+	- IJ_acutecomb
+	- .null 
+	- And uni2159.ss19
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -576,15 +509,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Q	Contours detected: 3	Expected: 2
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+	- Glyph name: onequarter	Contours detected: 2	Expected: 3 or 4
+	- Glyph name: onehalf	Contours detected: 2	Expected: 3
+	- Glyph name: threequarters	Contours detected: 2	Expected: 3 or 4
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-	- Glyph name: lslash	Contours detected: 2	Expected: 1 
-	- And 17 more.
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2 
+	- And 23 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -609,7 +542,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* j (U+006A): X=493.0,Y=-2.0 (should be at baseline 0?)
 	* j (U+006A): X=272.0,Y=1092.0 (should be at x-height 1091?)
 	* j (U+006A): X=946.0,Y=1092.0 (should be at x-height 1091?)
-	* m (U+006D): X=123.0,Y=1092.0 (should be at x-height 1091?) and 53 more.
+	* m (U+006D): X=123.0,Y=1092.0 (should be at x-height 1091?) and 55 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short?</summary><div>
@@ -641,10 +574,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	* Iacute (U+00CD): B<<726.5,303.5>-<701.0,277.0>-<655.0,269.0>>/L<<655.0,269.0>--<1053.0,269.0>> = 9.865806943084365
 	* Ibreve (U+012C): B<<562.0,1151.5>-<587.0,1178.0>-<632.0,1185.0>>/L<<632.0,1185.0>--<235.0,1185.0>> = 8.84181456019167
 	* Ibreve (U+012C): B<<726.5,303.5>-<701.0,277.0>-<655.0,269.0>>/L<<655.0,269.0>--<1053.0,269.0>> = 9.865806943084365
-	* Icircumflex (U+00CE): B<<562.0,1151.5>-<587.0,1178.0>-<632.0,1185.0>>/L<<632.0,1185.0>--<235.0,1185.0>> = 8.84181456019167 and 144 more.
+	* Icircumflex (U+00CE): B<<562.0,1151.5>-<587.0,1178.0>-<632.0,1185.0>>/L<<632.0,1185.0>--<235.0,1185.0>> = 8.84181456019167 and 148 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[18] SplineSansMono-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+</div></details><br></div></details><details><summary><b>[16] SplineSansMono-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -668,22 +601,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * [com.google.fonts/check/cjk_vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-</div></details><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary><div>
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00BC (VULGAR FRACTION ONE QUARTER)
-
-	- 0x00BD (VULGAR FRACTION ONE HALF)
- 
-	- And 0x00BE (VULGAR FRACTION THREE QUARTERS)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary><div>
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2160, but got 2024 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 622, but got 605 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description.</summary><div>
 * [com.google.fonts/check/stylisticset_description](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description)
 
@@ -713,9 +630,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- ij_acutecomb
 	- IJ_acutecomb
-	- .null 
+	- .null
+	- ij_acutecomb 
 	- And commaturnedabove
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
@@ -728,15 +645,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Q	Contours detected: 3	Expected: 2
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+	- Glyph name: onequarter	Contours detected: 2	Expected: 3 or 4
+	- Glyph name: onehalf	Contours detected: 2	Expected: 3
+	- Glyph name: threequarters	Contours detected: 2	Expected: 3 or 4
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: uni01F5	Contours detected: 4	Expected: 3 
-	- And 10 more.
+	- Glyph name: lslash	Contours detected: 2	Expected: 1 
+	- And 16 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -747,7 +664,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Checking correctness of monospaced metadata.</summary><div>
 * [com.google.fonts/check/monospace](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace)
 
-* ⚠ **WARN** Font is monospaced but 8 glyphs (1.45%) have a different width. You should check the widths of: ['uni2155.ss18', 'plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 8 glyphs (1.44%) have a different width. You should check the widths of: ['uni2155.ss18', 'plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary><div>
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
 
@@ -761,7 +678,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* U (U+0055): X=302.0,Y=1456.0 (should be at cap-height 1454?)
 	* f (U+0066): X=214.0,Y=1092.0 (should be at x-height 1091?)
 	* f (U+0066): X=454.0,Y=1092.0 (should be at x-height 1091?)
-	* f (U+0066): X=634.0,Y=1092.0 (should be at x-height 1091?) and 64 more.
+	* f (U+0066): X=634.0,Y=1092.0 (should be at x-height 1091?) and 72 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short?</summary><div>
@@ -793,7 +710,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	* comma (U+002C): B<<603.5,-44.5>-<616.0,-13.0>-<675.0,0.0>>/L<<675.0,0.0>--<487.0,0.0>> = 12.425942865427485
 	* d (U+0064): L<<850.0,0.0>--<849.0,244.0>>/B<<849.0,244.0>-<836.0,170.0>-<791.5,112.0>> = 10.198621643700793
 	* dcaron (U+010F): L<<850.0,0.0>--<849.0,244.0>>/B<<849.0,244.0>-<836.0,170.0>-<791.5,112.0>> = 10.198621643700793
-	* dcroat (U+0111): L<<850.0,0.0>--<849.0,244.0>>/B<<849.0,244.0>-<836.0,170.0>-<791.5,112.0>> = 10.198621643700793 and 89 more.
+	* dcroat (U+0111): L<<850.0,0.0>--<849.0,244.0>>/B<<849.0,244.0>-<836.0,170.0>-<791.5,112.0>> = 10.198621643700793 and 93 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary><div>
@@ -809,10 +726,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
  * Gcaron (U+01E6): L<<1077.0,757.0>--<1075.0,148.0>>
  * Gdotaccent (U+0120): L<<1077.0,757.0>--<1075.0,148.0>>
  * Imacron (U+012A): L<<288.0,1784.0>--<912.0,1785.0>>
- * Lslash (U+0141): L<<24.0,606.0>--<23.0,796.0>> and 88 more.
+ * Lslash (U+0141): L<<24.0,606.0>--<23.0,796.0>> and 92 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] SplineSansMono-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+</div></details><br></div></details><details><summary><b>[16] SplineSansMono-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -836,22 +753,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/cjk_vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-</div></details><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary><div>
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00BC (VULGAR FRACTION ONE QUARTER)
-
-	- 0x00BD (VULGAR FRACTION ONE HALF)
- 
-	- And 0x00BE (VULGAR FRACTION THREE QUARTERS)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary><div>
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2160, but got 2024 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 622, but got 605 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary><div>
 * [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
 
@@ -888,9 +789,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- ij_acutecomb
 	- IJ_acutecomb
-	- .null 
+	- .null
+	- ij_acutecomb 
 	- And commaturnedabove
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
@@ -903,15 +804,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Q	Contours detected: 3	Expected: 2
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+	- Glyph name: onequarter	Contours detected: 2	Expected: 3 or 4
+	- Glyph name: onehalf	Contours detected: 2	Expected: 3
+	- Glyph name: threequarters	Contours detected: 2	Expected: 3 or 4
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: uni01F5	Contours detected: 4	Expected: 3 
-	- And 10 more.
+	- Glyph name: lslash	Contours detected: 2	Expected: 1 
+	- And 16 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -922,7 +823,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Checking correctness of monospaced metadata.</summary><div>
 * [com.google.fonts/check/monospace](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace)
 
-* ⚠ **WARN** Font is monospaced but 8 glyphs (1.45%) have a different width. You should check the widths of: ['uni2155.ss18', 'plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 8 glyphs (1.44%) have a different width. You should check the widths of: ['uni2155.ss18', 'plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary><div>
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
 
@@ -952,7 +853,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* b (U+0062): L<<309.0,1556.0>--<309.0,849.0>>/B<<309.0,849.0>-<325.0,934.0>-<378.5,992.5>> = 10.66034829453532
 	* comma (U+002C): B<<601.5,-45.5>-<615.0,-10.0>-<671.0,0.0>>/L<<671.0,0.0>--<509.0,0.0>> = 10.124671655397806
 	* d (U+0064): L<<899.0,0.0>--<899.0,251.0>>/B<<899.0,251.0>-<876.0,124.0>-<785.5,56.0>> = 10.265140460213706
-	* dcaron (U+010F): L<<899.0,0.0>--<899.0,251.0>>/B<<899.0,251.0>-<876.0,124.0>-<785.5,56.0>> = 10.265140460213706 and 79 more.
+	* dcaron (U+010F): L<<899.0,0.0>--<899.0,251.0>>/B<<899.0,251.0>-<876.0,124.0>-<785.5,56.0>> = 10.265140460213706 and 83 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary><div>
@@ -968,10 +869,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
  * G (U+0047): L<<1077.0,734.0>--<1075.0,135.0>>
  * G (U+0047): L<<950.0,200.0>--<952.0,611.0>>
  * Gbreve (U+011E): L<<1077.0,734.0>--<1075.0,135.0>>
- * Gbreve (U+011E): L<<950.0,200.0>--<952.0,611.0>> and 64 more.
+ * Gbreve (U+011E): L<<950.0,200.0>--<952.0,611.0>> and 66 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] SplineSansMono-LightItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+</div></details><br></div></details><details><summary><b>[16] SplineSansMono-LightItalic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -995,26 +896,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/cjk_vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-</div></details><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary><div>
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00BC (VULGAR FRACTION ONE QUARTER)
-
-	- 0x00BD (VULGAR FRACTION ONE HALF)
- 
-	- And 0x00BE (VULGAR FRACTION THREE QUARTERS)
- [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value.</summary><div>
 * [com.google.fonts/check/italic_angle](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle)
 
-* 🔥 **FAIL** Font is italic, so post.italicAngle should be non-zero. [code: zero-italic]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary><div>
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2160, but got 2024 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 622, but got 605 instead. [code: descent]
+* 🔥 **FAIL** The value of post.italicAngle is positive, which is likely a mistake and should become negative, from 4.0 to -4.0. [code: positive]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary><div>
 * [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
 
@@ -1051,13 +936,12 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 	- uni2154.ss19
-	- IJ_acutecomb
-	- .null
-	- uni2159.ss19
 	- ij_acutecomb
-	- ringacutecomb
-	- uni2153.ss19 
-	- And commaturnedabove
+	- commaturnedabove
+	- uni2153.ss19
+	- IJ_acutecomb
+	- .null 
+	- And uni2159.ss19
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -1069,15 +953,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Q	Contours detected: 3	Expected: 2
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+	- Glyph name: onequarter	Contours detected: 2	Expected: 3 or 4
+	- Glyph name: onehalf	Contours detected: 2	Expected: 3
+	- Glyph name: threequarters	Contours detected: 2	Expected: 3 or 4
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-	- Glyph name: lslash	Contours detected: 2	Expected: 1 
-	- And 17 more.
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2 
+	- And 23 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1088,7 +972,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Checking correctness of monospaced metadata.</summary><div>
 * [com.google.fonts/check/monospace](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace)
 
-* ⚠ **WARN** Font is monospaced but 18 glyphs (2.88%) have a different width. You should check the widths of: ['a', 'aacute', 'abreve', 'acircumflex', 'adieresis', 'agrave', 'amacron', 'aogonek', 'aring', 'aringacute', 'atilde', 'plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 18 glyphs (2.87%) have a different width. You should check the widths of: ['a', 'aacute', 'abreve', 'acircumflex', 'adieresis', 'agrave', 'amacron', 'aogonek', 'aring', 'aringacute', 'atilde', 'plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary><div>
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
 
@@ -1118,10 +1002,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* aacute (U+00E1): L<<865.0,610.0>--<865.0,609.0>>/L<<865.0,609.0>--<911.0,986.0>> = 6.95660990518771
 	* abreve (U+0103): L<<829.0,310.0>--<845.0,445.0>>/B<<845.0,445.0>-<813.0,309.0>-<742.5,206.0>> = 6.481438788216659
 	* abreve (U+0103): L<<865.0,610.0>--<865.0,609.0>>/L<<865.0,609.0>--<911.0,986.0>> = 6.95660990518771
-	* acircumflex (U+00E2): L<<829.0,310.0>--<845.0,445.0>>/B<<845.0,445.0>-<813.0,309.0>-<742.5,206.0>> = 6.481438788216659 and 132 more.
+	* acircumflex (U+00E2): L<<829.0,310.0>--<845.0,445.0>>/B<<845.0,445.0>-<813.0,309.0>-<742.5,206.0>> = 6.481438788216659 and 134 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[19] SplineSansMono-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+</div></details><br></div></details><details><summary><b>[17] SplineSansMono-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -1145,22 +1029,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * [com.google.fonts/check/cjk_vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-</div></details><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary><div>
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00BC (VULGAR FRACTION ONE QUARTER)
-
-	- 0x00BD (VULGAR FRACTION ONE HALF)
- 
-	- And 0x00BE (VULGAR FRACTION THREE QUARTERS)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary><div>
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2160, but got 2024 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 622, but got 605 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary><div>
 * [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
 
@@ -1197,9 +1065,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- ij_acutecomb
 	- IJ_acutecomb
-	- .null 
+	- .null
+	- ij_acutecomb 
 	- And commaturnedabove
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
@@ -1212,15 +1080,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Q	Contours detected: 3	Expected: 2
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+	- Glyph name: onequarter	Contours detected: 2	Expected: 3 or 4
+	- Glyph name: onehalf	Contours detected: 2	Expected: 3
+	- Glyph name: threequarters	Contours detected: 2	Expected: 3 or 4
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: uni01F5	Contours detected: 4	Expected: 3 
-	- And 10 more.
+	- Glyph name: lslash	Contours detected: 2	Expected: 1 
+	- And 16 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1231,7 +1099,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Checking correctness of monospaced metadata.</summary><div>
 * [com.google.fonts/check/monospace](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace)
 
-* ⚠ **WARN** Font is monospaced but 7 glyphs (1.27%) have a different width. You should check the widths of: ['plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 7 glyphs (1.26%) have a different width. You should check the widths of: ['plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary><div>
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
 
@@ -1277,7 +1145,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	* Iacute (U+00CD): B<<720.5,275.5>-<702.0,251.0>-<665.0,243.0>>/L<<665.0,243.0>--<1057.0,243.0>> = 12.200468727380786
 	* Ibreve (U+012C): B<<478.5,1178.5>-<497.0,1203.0>-<534.0,1211.0>>/L<<534.0,1211.0>--<143.0,1211.0>> = 12.200468727380786
 	* Ibreve (U+012C): B<<720.5,275.5>-<702.0,251.0>-<665.0,243.0>>/L<<665.0,243.0>--<1057.0,243.0>> = 12.200468727380786
-	* Icircumflex (U+00CE): B<<478.5,1178.5>-<497.0,1203.0>-<534.0,1211.0>>/L<<534.0,1211.0>--<143.0,1211.0>> = 12.200468727380786 and 148 more.
+	* Icircumflex (U+00CE): B<<478.5,1178.5>-<497.0,1203.0>-<534.0,1211.0>>/L<<534.0,1211.0>--<143.0,1211.0>> = 12.200468727380786 and 152 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary><div>
@@ -1293,10 +1161,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
  * Gdotaccent (U+0120): L<<1091.0,796.0>--<1090.0,170.0>>
  * M (U+004D): L<<913.0,0.0>--<908.0,604.0>>
  * R (U+0052): L<<597.0,1231.0>--<429.0,1232.0>>
- * Racute (U+0154): L<<597.0,1231.0>--<429.0,1232.0>> and 85 more.
+ * Racute (U+0154): L<<597.0,1231.0>--<429.0,1232.0>> and 87 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] SplineSansMono-Italic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+</div></details><br></div></details><details><summary><b>[15] SplineSansMono-Italic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -1320,26 +1188,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 * [com.google.fonts/check/cjk_vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-</div></details><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary><div>
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00BC (VULGAR FRACTION ONE QUARTER)
-
-	- 0x00BD (VULGAR FRACTION ONE HALF)
- 
-	- And 0x00BE (VULGAR FRACTION THREE QUARTERS)
- [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value.</summary><div>
 * [com.google.fonts/check/italic_angle](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/italic_angle)
 
-* 🔥 **FAIL** Font is italic, so post.italicAngle should be non-zero. [code: zero-italic]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary><div>
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2160, but got 2024 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 622, but got 605 instead. [code: descent]
+* 🔥 **FAIL** The value of post.italicAngle is positive, which is likely a mistake and should become negative, from 4.0 to -4.0. [code: positive]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description.</summary><div>
 * [com.google.fonts/check/stylisticset_description](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description)
 
@@ -1369,13 +1221,12 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 	- uni2154.ss19
-	- IJ_acutecomb
-	- .null
-	- uni2159.ss19
 	- ij_acutecomb
-	- ringacutecomb
-	- uni2153.ss19 
-	- And commaturnedabove
+	- commaturnedabove
+	- uni2153.ss19
+	- IJ_acutecomb
+	- .null 
+	- And uni2159.ss19
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
 * [com.google.fonts/check/contour_count](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count)
@@ -1387,15 +1238,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Q	Contours detected: 3	Expected: 2
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+	- Glyph name: onequarter	Contours detected: 2	Expected: 3 or 4
+	- Glyph name: onehalf	Contours detected: 2	Expected: 3
+	- Glyph name: threequarters	Contours detected: 2	Expected: 3 or 4
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
-	- Glyph name: eogonek	Contours detected: 3	Expected: 2
-	- Glyph name: hbar	Contours detected: 2	Expected: 1
-	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-	- Glyph name: lslash	Contours detected: 2	Expected: 1 
-	- And 17 more.
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2 
+	- And 23 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1406,7 +1257,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Checking correctness of monospaced metadata.</summary><div>
 * [com.google.fonts/check/monospace](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace)
 
-* ⚠ **WARN** Font is monospaced but 18 glyphs (2.88%) have a different width. You should check the widths of: ['a', 'aacute', 'abreve', 'acircumflex', 'adieresis', 'agrave', 'amacron', 'aogonek', 'aring', 'aringacute', 'atilde', 'plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 18 glyphs (2.87%) have a different width. You should check the widths of: ['a', 'aacute', 'abreve', 'acircumflex', 'adieresis', 'agrave', 'amacron', 'aogonek', 'aring', 'aringacute', 'atilde', 'plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary><div>
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
 
@@ -1420,7 +1271,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* f (U+0066): X=691.0,Y=1092.0 (should be at x-height 1091?)
 	* f (U+0066): X=1063.0,Y=1092.0 (should be at x-height 1091?)
 	* i (U+0069): X=911.5,Y=0.5 (should be at baseline 0?)
-	* j (U+006A): X=998.0,Y=1456.0 (should be at cap-height 1454?) and 79 more.
+	* j (U+006A): X=998.0,Y=1456.0 (should be at cap-height 1454?) and 87 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary><div>
@@ -1436,10 +1287,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* adieresis (U+00E4): L<<792.0,383.0>--<801.0,446.0>>/B<<801.0,446.0>-<747.0,229.0>-<632.5,108.5>> = 5.843998210249424
 	* ae (U+00E6): B<<767.0,854.5>-<704.0,757.0>-<670.0,589.0>>/B<<670.0,589.0>-<694.0,657.0>-<771.0,657.0>> = 7.998990959408728
 	* ae (U+00E6): L<<434.0,0.0>--<489.0,355.0>>/B<<489.0,355.0>-<434.0,194.0>-<347.0,91.0>> = 10.054139205129857
-	* aeacute (U+01FD): B<<767.0,854.5>-<704.0,757.0>-<670.0,589.0>>/B<<670.0,589.0>-<694.0,657.0>-<771.0,657.0>> = 7.998990959408728 and 134 more.
+	* aeacute (U+01FD): B<<767.0,854.5>-<704.0,757.0>-<670.0,589.0>>/B<<670.0,589.0>-<694.0,657.0>-<771.0,657.0>> = 7.998990959408728 and 138 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[19] SplineSansMono-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
+</div></details><br></div></details><details><summary><b>[17] SplineSansMono-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check METADATA.pb includes production subsets.</summary><div>
 * [com.google.fonts/check/metadata/includes_production_subsets](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/includes_production_subsets)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:production_metadata> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
@@ -1463,22 +1314,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * [com.google.fonts/check/cjk_vertical_metrics_regressions](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/cjk_vertical_metrics_regressions)
 
 * 💔 **ERROR** The condition <FontBakeryCondition:regular_remote_style> had an error: FailedConditionError: The condition <FontBakeryCondition:remote_styles> had an error: JSONDecodeError: Expecting value: line 1 column 1 (char 0)
-</div></details><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage.</summary><div>
-* [com.google.fonts/check/glyph_coverage](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage)
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00BC (VULGAR FRACTION ONE QUARTER)
-
-	- 0x00BD (VULGAR FRACTION ONE HALF)
- 
-	- And 0x00BE (VULGAR FRACTION THREE QUARTERS)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary><div>
-* [com.google.fonts/check/family/win_ascent_and_descent](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent)
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2160, but got 2024 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 622, but got 605 instead. [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters.</summary><div>
 * [com.google.fonts/check/name/family_and_style_max_length](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length)
 
@@ -1515,9 +1350,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * [com.google.fonts/check/unreachable_glyphs](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs)
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- ij_acutecomb
 	- IJ_acutecomb
-	- .null 
+	- .null
+	- ij_acutecomb 
 	- And commaturnedabove
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary><div>
@@ -1530,15 +1365,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Q	Contours detected: 3	Expected: 2
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+	- Glyph name: onequarter	Contours detected: 2	Expected: 3 or 4
+	- Glyph name: onehalf	Contours detected: 2	Expected: 3
+	- Glyph name: threequarters	Contours detected: 2	Expected: 3 or 4
 	- Glyph name: Eth	Contours detected: 3	Expected: 2
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 	- Glyph name: Lslash	Contours detected: 2	Expected: 1
-	- Glyph name: lslash	Contours detected: 2	Expected: 1
-	- Glyph name: Tbar	Contours detected: 2	Expected: 1
-	- Glyph name: uogonek	Contours detected: 2	Expected: 1
-	- Glyph name: uni01F5	Contours detected: 4	Expected: 3 
-	- And 10 more.
+	- Glyph name: lslash	Contours detected: 2	Expected: 1 
+	- And 16 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1549,7 +1384,7 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Checking correctness of monospaced metadata.</summary><div>
 * [com.google.fonts/check/monospace](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace)
 
-* ⚠ **WARN** Font is monospaced but 7 glyphs (1.27%) have a different width. You should check the widths of: ['plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 7 glyphs (1.26%) have a different width. You should check the widths of: ['plus.alt', 'equal.alt', 'greaterarrow', 'exclamequal', 'lessergreater', 'greatergreaterarrow', 'equalequalarrow'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary><div>
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
 
@@ -1563,7 +1398,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* f (U+0066): X=1007.0,Y=1092.0 (should be at x-height 1091?)
 	* g (U+0067): X=771.0,Y=1090.0 (should be at x-height 1091?)
 	* g (U+0067): X=347.0,Y=1.5 (should be at baseline 0?)
-	* j (U+006A): X=284.0,Y=1092.0 (should be at x-height 1091?) and 56 more.
+	* j (U+006A): X=284.0,Y=1092.0 (should be at x-height 1091?) and 58 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short?</summary><div>
@@ -1595,7 +1430,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 	* braceright (U+007D): B<<525.5,631.5>-<584.0,690.0>-<776.0,713.0>>/B<<776.0,713.0>-<588.0,736.0>-<526.5,797.5>> = 13.805935465347666
 	* comma (U+002C): B<<604.5,-44.0>-<617.0,-15.0>-<678.0,0.0>>/L<<678.0,0.0>--<474.0,0.0>> = 13.81502534126161
 	* d (U+0064): L<<821.0,0.0>--<819.0,243.0>>/B<<819.0,243.0>-<810.0,175.0>-<766.5,117.0>> = 8.011004693585441
-	* dcaron (U+010F): L<<821.0,0.0>--<819.0,243.0>>/B<<819.0,243.0>-<810.0,175.0>-<766.5,117.0>> = 8.011004693585441 and 83 more.
+	* dcaron (U+010F): L<<821.0,0.0>--<819.0,243.0>>/B<<819.0,243.0>-<810.0,175.0>-<766.5,117.0>> = 8.011004693585441 and 87 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines?</summary><div>
@@ -1611,7 +1446,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
  * Gbreve (U+011E): L<<1077.0,770.0>--<1075.0,155.0>>
  * Gcaron (U+01E6): L<<1077.0,770.0>--<1075.0,155.0>>
  * Gdotaccent (U+0120): L<<1077.0,770.0>--<1075.0,155.0>>
- * Hbar (U+0126): L<<1219.0,1093.0>--<1218.0,897.0>> and 75 more.
+ * Hbar (U+0126): L<<1219.0,1093.0>--<1218.0,897.0>> and 79 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details>
@@ -1619,8 +1454,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 60 | 27 | 97 | 998 | 61 | 843 | 0 |
-| 3% | 1% | 5% | 48% | 3% | 40% | 0% |
+| 60 | 7 | 97 | 998 | 61 | 863 | 0 |
+| 3% | 0% | 5% | 48% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
