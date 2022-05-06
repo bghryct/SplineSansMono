@@ -3,7 +3,8 @@
 DisplayStrings = (
 "\0121/onehalf.ss19/space 1/twothirds.ss19/space 1/onethird.ss19/space 1/onequarter.ss19/space 1/threequarters.ss19/space 1/onefifth.ss19/space 1/onesixth.ss19/space/oneeighth.ss19/threeeighths.ss19/fiveeighths.ss19/seveneighths.ss19 \012\0121//2/space 2//3/space 1//3/space 1//4/space 1//5/space 1//6/space 1//8/space 3//8/space 5//8/space 7//8",
 "/onehalf.ss19/onethird.ss19/twothirds.ss19/onequarter.ss19/threequarters.ss19/onefifth.ss19/onesixth.ss19/oneeighth.ss19/threeeighths.ss19/fiveeighths.ss19/seveneighths.ss19",
-"/zerowidthspace"
+"/zerowidthspace",
+"æ"
 );
 classes = (
 {
@@ -19203,7 +19204,7 @@ unicode = 00E3;
 },
 {
 glyphname = ae;
-lastChange = "2022-03-28 13:59:51 +0000";
+lastChange = "2022-05-06 14:11:30 +0000";
 layers = (
 {
 anchors = (
@@ -19216,13 +19217,6 @@ name = top;
 position = "{607, 1091}";
 }
 );
-background = {
-components = (
-{
-name = a;
-}
-);
-};
 layerId = "0D9D1AFE-BAFC-449A-A530-9FCA9CDF2E2E";
 paths = (
 {
